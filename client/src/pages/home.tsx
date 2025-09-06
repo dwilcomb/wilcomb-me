@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   useEffect(() => {
     // Update page title for SEO
-    document.title = "Will Comb - Product Design Leader | Confidently Understated Design";
+    document.title = "Daniel Wilcomb - Product Design Leader | Confidently Understated Design";
     
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');
@@ -36,7 +36,7 @@ export default function Home() {
       }
     };
 
-    addMetaTag('og:title', 'Will Comb - Product Design Leader');
+    addMetaTag('og:title', 'Daniel Wilcomb - Product Design Leader');
     addMetaTag('og:description', 'Product Design Leader specializing in collaboration, inclusiveness, communication, and transparency.');
     addMetaTag('og:type', 'website');
     addMetaTag('og:url', window.location.href);

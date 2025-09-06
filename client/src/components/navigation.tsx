@@ -59,7 +59,7 @@ export default function Navigation() {
               className="hover:text-accent transition-colors"
               data-testid="logo-home"
             >
-              Will Comb
+              Daniel Wilcomb
             </button>
           </div>
           

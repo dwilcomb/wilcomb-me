@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <div className="font-serif text-xl font-medium text-foreground mb-2">Will Comb</div>
+            <div className="font-serif text-xl font-medium text-foreground mb-2">Daniel Wilcomb</div>
             <p className="text-sm text-muted-foreground">Product Design Leader</p>
           </div>
           
@@ -32,7 +32,7 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Will Comb. All rights reserved. • Built with care and attention to detail
+            © 2024 Daniel Wilcomb. All rights reserved. • Built with care and attention to detail
           </p>
         </div>
       </div>
