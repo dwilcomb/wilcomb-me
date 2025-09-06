@@ -31,7 +31,7 @@ export default function HeroSection() {
           
           <div className="max-w-xl mb-16 animate-fade-in">
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed font-light">
-              A player-coach approach to product design—equally comfortable setting strategic vision and executing alongside my team with hands-on precision.
+              A player-coach approach to product design—equal parts strategic vision and executing alongside my team with hands-on precision.
             </p>
           </div>
           
