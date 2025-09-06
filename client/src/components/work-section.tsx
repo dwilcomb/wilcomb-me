@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "wouter";
 
 export default function WorkSection() {
   const projects = [
@@ -10,7 +11,7 @@ export default function WorkSection() {
       tags: ["Design Thinking", "Lean Design"],
       description: "Lean design methodologies and innovative thinking to solve complex product challenges.",
       image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      url: "https://wilcomb.me/innovation",
+      url: "/innovation",
       available: true
     },
     {
@@ -19,7 +20,7 @@ export default function WorkSection() {
       tags: ["Healthcare"],
       description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      url: "https://wilcomb.me/healthcare",
+      url: "/healthcare",
       available: true
     },
     {
@@ -28,7 +29,7 @@ export default function WorkSection() {
       tags: ["Finance"],
       description: "Creating user-friendly financial interfaces that make complex data accessible and actionable.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      url: "https://wilcomb.me/finance", 
+      url: "/finance", 
       available: true
     },
     {
@@ -99,16 +100,14 @@ export default function WorkSection() {
                 </p>
                 
                 {project.available ? (
-                  <a 
-                    href={project.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link"
-                    data-testid={`project-link-${index}`}
-                  >
-                    View Case Study
-                    <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
-                  </a>
+                  <Link href={project.url}>
+                    <span className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link cursor-pointer"
+                      data-testid={`project-link-${index}`}
+                    >
+                      View Case Study
+                      <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
+                    </span>
+                  </Link>
                 ) : (
                   <span className="inline-flex items-center text-muted-foreground text-sm font-normal tracking-wide opacity-50 cursor-not-allowed">
                     Coming Soon
