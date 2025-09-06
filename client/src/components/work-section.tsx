@@ -54,61 +54,68 @@ export default function WorkSection() {
   return (
     <section id="work" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <span className="text-accent font-mono text-sm tracking-wide uppercase mb-4 block">
-            Featured Work
+        <div className="text-center mb-20">
+          <span className="text-accent font-mono text-xs tracking-widest uppercase mb-6 block opacity-75 font-medium">
+            Selected Work
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground">
-            Areas of Focus
+          <h2 className="font-serif text-4xl md:text-5xl font-normal text-foreground tracking-tight leading-tight">
+            Areas of <em className="font-light italic">Focus</em>
           </h2>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <Card key={index} className="project-card bg-card rounded-xl overflow-hidden shadow-sm border border-border">
-              <img 
-                src={project.image} 
-                alt={project.title}
-                className="w-full h-48 object-cover"
-                loading="lazy"
-              />
-              <CardContent className="p-6">
-                <div className="flex items-center gap-2 mb-3 flex-wrap">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
+          {projects.slice(0, 4).map((project, index) => (
+            <div key={index} className="project-card group">
+              <div className="relative overflow-hidden rounded-sm mb-6">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="flex items-center gap-3 flex-wrap">
                   {project.tags.map((tag, tagIndex) => (
-                    <Badge key={tagIndex} variant="secondary" className="text-accent font-mono text-xs tracking-wide uppercase">
+                    <span key={tagIndex} className="text-accent font-mono text-xs tracking-widest uppercase opacity-75 font-medium">
                       {tag}
-                    </Badge>
+                    </span>
                   ))}
                   {!project.available && (
-                    <Badge variant="outline" className="text-xs text-muted-foreground">
+                    <span className="text-muted-foreground font-mono text-xs tracking-widest uppercase opacity-50">
                       Coming Soon
-                    </Badge>
+                    </span>
                   )}
                 </div>
-                <h3 className="font-serif text-xl font-medium text-foreground mb-3" data-testid={`project-title-${index}`}>
+                
+                <h3 className="font-serif text-2xl md:text-3xl font-normal text-foreground tracking-tight leading-tight" data-testid={`project-title-${index}`}>
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4" data-testid={`project-desc-${index}`}>
+                
+                <p className="text-muted-foreground leading-relaxed font-light" data-testid={`project-desc-${index}`}>
                   {project.description}
                 </p>
+                
                 {project.available ? (
                   <a 
                     href={project.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-accent hover:text-accent/80 transition-colors text-sm font-medium"
+                    className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link"
                     data-testid={`project-link-${index}`}
                   >
                     View Case Study
-                    <ArrowRight className="ml-2 h-3 w-3" />
+                    <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
                   </a>
                 ) : (
-                  <span className="inline-flex items-center text-muted-foreground text-sm font-medium cursor-not-allowed">
+                  <span className="inline-flex items-center text-muted-foreground text-sm font-normal tracking-wide opacity-50 cursor-not-allowed">
                     Coming Soon
                   </span>
                 )}
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           ))}
         </div>
       </div>

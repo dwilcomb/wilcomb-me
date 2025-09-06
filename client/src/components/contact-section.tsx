@@ -62,16 +62,16 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-background">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <span className="text-accent font-mono text-sm tracking-wide uppercase mb-4 block">
+    <section id="contact" className="py-32 bg-background">
+      <div className="max-w-5xl mx-auto px-6 lg:px-8">
+        <div className="text-center mb-20">
+          <span className="text-accent font-mono text-xs tracking-widest uppercase mb-6 block opacity-75 font-medium">
             Get In Touch
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl font-medium text-foreground mb-6">
-            Let's Work Together
+          <h2 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-8 tracking-tight leading-tight">
+            Let's Work <em className="font-light italic">Together</em>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto font-light leading-relaxed">
             Interested in collaborating or learning more about my approach to product design? I'd love to hear from you.
           </p>
         </div>

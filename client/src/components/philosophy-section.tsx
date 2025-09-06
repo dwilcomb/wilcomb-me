@@ -25,28 +25,28 @@ export default function PhilosophySection() {
   ];
 
   return (
-    <section className="py-24 bg-card">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-medium mb-8 text-foreground">
-            Core Principles
+    <section className="py-32 bg-card">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-serif text-4xl md:text-5xl font-normal mb-12 text-foreground tracking-tight leading-tight">
+            Core <em className="font-light italic">Principles</em>
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-            The core principles of my approach are collaboration, inclusiveness, communication, and transparency. The result is an environment of infectious enthusiasm around a compelling shared vision that extends well beyond the design and even the product teams.
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-16 font-light max-w-3xl mx-auto">
+            The foundation of my approach centers on collaboration, inclusiveness, communication, and transparency—creating environments of infectious enthusiasm around compelling shared visions.
           </p>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             {principles.map((principle, index) => {
               const Icon = principle.icon;
               return (
-                <div key={index} className="text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Icon className="h-6 w-6 text-accent" />
+                <div key={index} className="text-center group">
+                  <div className="w-16 h-16 bg-accent/5 rounded-sm flex items-center justify-center mx-auto mb-6 group-hover:bg-accent/10 transition-colors duration-300">
+                    <Icon className="h-7 w-7 text-accent opacity-75" />
                   </div>
-                  <h3 className="font-medium text-foreground mb-2" data-testid={`principle-title-${index}`}>
+                  <h3 className="font-serif text-lg font-normal text-foreground mb-3 tracking-tight" data-testid={`principle-title-${index}`}>
                     {principle.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground" data-testid={`principle-desc-${index}`}>
+                  <p className="text-muted-foreground font-light leading-relaxed" data-testid={`principle-desc-${index}`}>
                     {principle.description}
                   </p>
                 </div>

@@ -107,20 +107,20 @@
   }
 
   .nav-link:after {
-    @apply absolute bottom-0 left-0 w-0 h-px bg-accent transition-all duration-300;
+    @apply absolute bottom-0 left-0 w-0 h-px bg-accent transition-all duration-300 opacity-50;
     content: '';
-    bottom: -4px;
+    bottom: -6px;
   }
 
   .nav-link:hover:after {
-    @apply w-full;
+    @apply w-full opacity-100;
   }
 
   .project-card {
-    @apply transition-all duration-300 ease-out;
+    @apply transition-all duration-500 ease-out;
   }
 
   .project-card:hover {
-    @apply -translate-y-1;
+    @apply -translate-y-2;
   }
 }

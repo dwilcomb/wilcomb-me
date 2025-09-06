@@ -17,38 +17,40 @@ export default function HeroSection() {
     <section id="hero" className="min-h-screen hero-gradient flex items-center">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-24">
         <div className="max-w-4xl">
-          <div className="mb-6 animate-fade-in">
-            <span className="text-accent font-mono text-sm tracking-wide uppercase">
-              Product Design Leader
+          <div className="mb-8 animate-fade-in">
+            <span className="text-accent font-mono text-xs tracking-widest uppercase font-medium opacity-75">
+              Product Design Leadership
             </span>
           </div>
           
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-medium leading-tight mb-8 text-foreground animate-fade-in">
-            Building compelling visions through collaboration and craft
+          <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-normal leading-[0.9] mb-12 text-foreground animate-fade-in tracking-tight">
+            Crafting visions through
+            <br />
+            <em className="font-light italic">collaboration</em> & craft
           </h1>
           
-          <div className="max-w-2xl mb-12 animate-fade-in">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              I am a player-coach, equally adept at building and championing a product vision, guiding it in execution through team-building and partnership, and contributing to its delivery hands-on.
+          <div className="max-w-xl mb-16 animate-fade-in">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed font-light">
+              A player-coach approach to product design—equally comfortable setting strategic vision and executing alongside my team with hands-on precision.
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in">
+          <div className="flex flex-col sm:flex-row gap-6 animate-fade-in">
             <Button 
               onClick={() => scrollToSection('work')}
-              className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
+              className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-sm hover:bg-primary/90 transition-all duration-300 font-normal text-sm tracking-wide"
               data-testid="button-view-work"
             >
-              View My Work
-              <ArrowRight className="ml-2 h-4 w-4" />
+              Selected Work
+              <ArrowRight className="ml-3 h-3 w-3" />
             </Button>
             <Button
-              variant="outline"
+              variant="ghost"
               onClick={() => scrollToSection('contact')}
-              className="inline-flex items-center px-6 py-3 border border-border rounded-lg hover:bg-muted transition-colors font-medium"
+              className="inline-flex items-center px-8 py-4 text-muted-foreground hover:text-foreground transition-all duration-300 font-normal text-sm tracking-wide"
               data-testid="button-get-in-touch"
             >
-              Get In Touch
+              Let's Connect
             </Button>
           </div>
         </div>

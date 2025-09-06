@@ -2,37 +2,37 @@ import { Linkedin, Dribbble } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-card border-t border-border py-12">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+    <footer className="bg-card border-t border-border/50 py-16">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
-            <div className="font-serif text-xl font-medium text-foreground mb-2">Daniel Wilcomb</div>
-            <p className="text-sm text-muted-foreground">Product Design Leader</p>
+          <div className="mb-6 md:mb-0">
+            <div className="font-serif text-lg font-normal text-foreground mb-2 tracking-tight">Daniel Wilcomb</div>
+            <p className="text-muted-foreground font-light">Product Design Leader</p>
           </div>
           
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-8">
             <a 
               href="#" 
-              className="text-muted-foreground hover:text-accent transition-colors"
+              className="text-muted-foreground hover:text-accent transition-colors duration-300 opacity-75 hover:opacity-100"
               data-testid="footer-linkedin"
               aria-label="LinkedIn Profile"
             >
-              <Linkedin className="h-5 w-5" />
+              <Linkedin className="h-4 w-4" />
             </a>
             <a 
               href="#" 
-              className="text-muted-foreground hover:text-accent transition-colors"
+              className="text-muted-foreground hover:text-accent transition-colors duration-300 opacity-75 hover:opacity-100"
               data-testid="footer-dribbble"
               aria-label="Dribbble Profile"
             >
-              <Dribbble className="h-5 w-5" />
+              <Dribbble className="h-4 w-4" />
             </a>
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground">
-            © 2024 Daniel Wilcomb. All rights reserved. • Built with care and attention to detail
+        <div className="mt-12 pt-8 border-t border-border/30 text-center">
+          <p className="text-sm text-muted-foreground font-light opacity-75">
+            © 2024 Daniel Wilcomb. All rights reserved.
           </p>
         </div>
       </div>
