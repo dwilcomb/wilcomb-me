@@ -24,13 +24,14 @@ export default function HeroSection() {
           </div>
           
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-normal leading-[0.9] mb-12 text-foreground animate-fade-in tracking-tight">
-            vision
-            <em className="font-light italic">collaboration,</em> craft.
+            Crafting visions through
+            <br />
+            <em className="font-light italic">collaboration</em> & craft
           </h1>
           
           <div className="max-w-xl mb-16 animate-fade-in">
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed font-light">
-              A player-coach approach to product design—equal parts strategic vision and executing alongside my team with hands-on precision.
+              A player-coach approach to product design—equally comfortable setting strategic vision and executing alongside my team with hands-on precision.
             </p>
           </div>
           
