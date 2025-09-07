@@ -3,6 +3,9 @@ import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
 import bankAmericaImg from "@assets/images/bank-america.png";
+import financeHeroImg from "@assets/images/finance-hero.png";
+import newInterface1Img from "@assets/images/new-interface-1.png";
+import newInterface2Img from "@assets/images/new-interface-2.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -154,9 +157,11 @@ export default function BankAmerica() {
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Focused on traditional banking services, account management, and transaction processing.
                 </p>
-                <div className="aspect-video bg-muted rounded-sm flex items-center justify-center">
-                  <span className="text-muted-foreground text-xs font-mono">Banking Interface</span>
-                </div>
+                <img 
+                  src={newInterface1Img} 
+                  alt="Banking Associate Interface" 
+                  className="w-full aspect-video object-cover rounded-sm"
+                />
               </div>
               
               <div className="bg-card p-6 rounded-sm border border-border">
@@ -164,9 +169,11 @@ export default function BankAmerica() {
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Specialized in investment services, portfolio management, and trading activities.
                 </p>
-                <div className="aspect-video bg-muted rounded-sm flex items-center justify-center">
-                  <span className="text-muted-foreground text-xs font-mono">Brokerage Interface</span>
-                </div>
+                <img 
+                  src={newInterface2Img} 
+                  alt="Brokerage Associate Interface" 
+                  className="w-full aspect-video object-cover rounded-sm"
+                />
               </div>
               
               <div className="bg-card p-6 rounded-sm border border-border">
@@ -174,9 +181,11 @@ export default function BankAmerica() {
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Comprehensive view combining banking and investment services for high-value clients.
                 </p>
-                <div className="aspect-video bg-muted rounded-sm flex items-center justify-center">
-                  <span className="text-muted-foreground text-xs font-mono">Investment Interface</span>
-                </div>
+                <img 
+                  src={financeHeroImg} 
+                  alt="Investment Center Associate Interface" 
+                  className="w-full aspect-video object-cover rounded-sm"
+                />
               </div>
             </div>
           </div>
@@ -194,9 +203,11 @@ export default function BankAmerica() {
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Real-time view of all customer interactions, transactions, and touchpoints across business lines.
                 </p>
-                <div className="aspect-video bg-muted rounded-sm flex items-center justify-center">
-                  <span className="text-muted-foreground text-xs font-mono">Activities Dashboard</span>
-                </div>
+                <img 
+                  src={bankAmericaImg} 
+                  alt="Consolidated Activities Dashboard" 
+                  className="w-full aspect-video object-cover rounded-sm"
+                />
               </div>
               
               <div className="bg-card p-6 rounded-sm border border-border">
@@ -204,9 +215,11 @@ export default function BankAmerica() {
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Identification of cross-selling opportunities and relationship expansion possibilities.
                 </p>
-                <div className="aspect-video bg-muted rounded-sm flex items-center justify-center">
-                  <span className="text-muted-foreground text-xs font-mono">Opportunities View</span>
-                </div>
+                <img 
+                  src={newInterface1Img} 
+                  alt="Consolidated Opportunities View" 
+                  className="w-full aspect-video object-cover rounded-sm"
+                />
               </div>
             </div>
 
@@ -223,9 +236,11 @@ export default function BankAmerica() {
             </p>
             
             <div className="bg-card p-8 rounded-sm border border-border">
-              <div className="aspect-video bg-muted rounded-sm flex items-center justify-center mb-6">
-                <span className="text-muted-foreground font-mono">Book of Business Interface</span>
-              </div>
+              <img 
+                src={financeHeroImg} 
+                alt="Consolidated Book of Business Interface" 
+                className="w-full aspect-video object-cover rounded-sm mb-6"
+              />
               <p className="text-muted-foreground font-light text-center">
                 Day-planner paradigm with comprehensive customer portfolio view
               </p>
