@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
-import innovationWorkImg from "@assets/images/innovation-work.jpg";
+import innovationWorkImg from "@assets/IMG_0226_1757275233443.png";
 import healthcareWorkImg from "@assets/Flowsheet with Alert_1757271708671.png";
 import financeWorkImg from "@assets/images/finance-work.jpg";
 import oneStreamWorkImg from "@assets/images/new-interface-1.png";
