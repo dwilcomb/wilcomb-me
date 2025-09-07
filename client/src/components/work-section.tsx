@@ -9,6 +9,7 @@ import oneStreamWorkImg from "@assets/images/new-interface-1.png";
 import bankAmericaWorkImg from "@assets/image5_1757270848645.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
+import aiArticleImg from "@assets/generated_images/AI_UX_collaboration_illustration_a944aa6b.png";
 
 export default function WorkSection() {
   const projects = [
@@ -46,6 +47,15 @@ export default function WorkSection() {
       description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
       image: bankAmericaWorkImg,
       url: "/bank-america", 
+      available: true
+    },
+    {
+      title: "Stop Panicking about AI",
+      category: "Thought Leadership",
+      tags: ["AI", "UX Strategy"],
+      description: "A message to the UX community about using AI as a tool to enhance design and reduce cognitive overhead.",
+      image: aiArticleImg,
+      url: "/ai-article",
       available: true
     },
     {

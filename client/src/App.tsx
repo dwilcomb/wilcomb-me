@@ -9,6 +9,7 @@ import Healthcare from "@/pages/healthcare";
 import Finance from "@/pages/finance";
 import OneStream from "@/pages/onestream";
 import BankAmerica from "@/pages/bank-america";
+import AIArticle from "@/pages/ai-article";
 import Resume from "@/pages/resume";
 import NotFound from "@/pages/not-found";
 
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/finance" component={Finance} />
       <Route path="/onestream" component={OneStream} />
       <Route path="/bank-america" component={BankAmerica} />
+      <Route path="/ai-article" component={AIArticle} />
       <Route path="/resume" component={Resume} />
       <Route component={NotFound} />
     </Switch>
