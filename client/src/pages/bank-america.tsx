@@ -11,6 +11,7 @@ import brokerageAssociateImg from "@assets/image2_1757270393720.png";
 import investmentCenterImg from "@assets/image4_1757270705638.png";
 import consolidatedActivitiesImg from "@assets/image5_1757270848645.png";
 import consolidatedOpportunitiesImg from "@assets/image7_1757270928813.png";
+import newConsolidatedActivitiesImg from "@assets/image8_1757271073172.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -210,7 +211,7 @@ export default function BankAmerica() {
                   Real-time view of all customer interactions, transactions, and touchpoints across business lines.
                 </p>
                 <img 
-                  src={consolidatedActivitiesImg} 
+                  src={newConsolidatedActivitiesImg} 
                   alt="Consolidated Activities Dashboard" 
                   className="w-full aspect-video object-cover object-top rounded-sm"
                 />
