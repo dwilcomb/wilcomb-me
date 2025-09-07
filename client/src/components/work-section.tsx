@@ -5,7 +5,7 @@ import { Link } from "wouter";
 import innovationWorkImg from "@assets/images/innovation-work.jpg";
 import healthcareWorkImg from "@assets/images/healthcare-work.jpg";
 import financeWorkImg from "@assets/images/finance-work.jpg";
-import oneStreamWorkImg from "@assets/images/finance-hero.png";
+import oneStreamWorkImg from "@assets/images/new-interface-1.png";
 import bankAmericaWorkImg from "@assets/images/bank-america.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
