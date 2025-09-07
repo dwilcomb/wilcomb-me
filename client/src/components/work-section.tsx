@@ -15,24 +15,6 @@ import invisibleProductsImg from "@assets/IMG_0225_1757274560205.jpeg";
 export default function WorkSection() {
   const projects = [
     {
-      title: "Innovation & Design Thinking",
-      category: "Innovation",
-      tags: ["Design Thinking", "Lean Design"],
-      description: "Lean design methodologies and innovative thinking to solve complex product challenges.",
-      image: innovationWorkImg,
-      url: "/innovation",
-      available: true
-    },
-    {
-      title: "Accountable Care Solutions", 
-      category: "Healthcare",
-      tags: ["Healthcare"],
-      description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
-      image: healthcareWorkImg,
-      url: "/healthcare",
-      available: true
-    },
-    {
       title: "OneStream Software",
       category: "Enterprise FinTech", 
       tags: ["Enterprise", "Financial Planning"],
@@ -51,12 +33,21 @@ export default function WorkSection() {
       available: true
     },
     {
-      title: "Bank of America",
-      category: "Financial Services", 
-      tags: ["Customer Service", "Integration"],
-      description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
-      image: bankAmericaWorkImg,
-      url: "/bank-america", 
+      title: "Innovation & Design Thinking",
+      category: "Innovation",
+      tags: ["Design Thinking", "Lean Design"],
+      description: "Lean design methodologies and innovative thinking to solve complex product challenges.",
+      image: innovationWorkImg,
+      url: "/innovation",
+      available: true
+    },
+    {
+      title: "Accountable Care Solutions", 
+      category: "Healthcare",
+      tags: ["Healthcare"],
+      description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
+      image: healthcareWorkImg,
+      url: "/healthcare",
       available: true
     },
     {
@@ -66,6 +57,15 @@ export default function WorkSection() {
       description: "Why the future of SaaS belongs to companies that organize around user journeys, not org charts.",
       image: invisibleProductsImg,
       url: "/invisible-products",
+      available: true
+    },
+    {
+      title: "Bank of America",
+      category: "Financial Services", 
+      tags: ["Customer Service", "Integration"],
+      description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
+      image: bankAmericaWorkImg,
+      url: "/bank-america", 
       available: true
     },
     {
