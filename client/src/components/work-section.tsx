@@ -5,6 +5,8 @@ import { Link } from "wouter";
 import innovationWorkImg from "@assets/images/innovation-work.jpg";
 import healthcareWorkImg from "@assets/images/healthcare-work.jpg";
 import financeWorkImg from "@assets/images/finance-work.jpg";
+import oneStreamWorkImg from "@assets/images/finance-hero.png";
+import bankAmericaWorkImg from "@assets/images/bank-america.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
 
@@ -29,12 +31,21 @@ export default function WorkSection() {
       available: true
     },
     {
-      title: "Financial Technology",
-      category: "Finance", 
-      tags: ["Finance"],
-      description: "Creating user-friendly financial interfaces that make complex data accessible and actionable.",
-      image: financeWorkImg,
-      url: "/finance", 
+      title: "OneStream Software",
+      category: "Enterprise FinTech", 
+      tags: ["Enterprise", "Financial Planning"],
+      description: "Transforming financial planning & analysis with user-centered design and comprehensive design systems.",
+      image: oneStreamWorkImg,
+      url: "/onestream", 
+      available: true
+    },
+    {
+      title: "Bank of America",
+      category: "Financial Services", 
+      tags: ["Customer Service", "Integration"],
+      description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
+      image: bankAmericaWorkImg,
+      url: "/bank-america", 
       available: true
     },
     {
