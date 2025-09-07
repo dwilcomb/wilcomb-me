@@ -91,7 +91,7 @@ export default function WorkSection() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
-          {projects.slice(0, 4).map((project, index) => (
+          {projects.slice(0, 6).map((project, index) => (
             <div key={index} className="project-card group">
               {project.available ? (
                 <Link href={project.url} className="block">
