@@ -18,6 +18,7 @@ export default function OneStream() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "OneStream Software - Daniel Wilcomb";
     
     const metaDescription = document.querySelector('meta[name="description"]');

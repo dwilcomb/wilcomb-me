@@ -8,6 +8,7 @@ export default function Resume() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Résumé - Daniel Wilcomb";
     
     const metaDescription = document.querySelector('meta[name="description"]');

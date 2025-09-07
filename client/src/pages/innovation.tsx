@@ -14,6 +14,7 @@ export default function Innovation() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Innovation & Design Thinking - Daniel Wilcomb";
     
     const metaDescription = document.querySelector('meta[name="description"]');

@@ -22,6 +22,7 @@ export default function Healthcare() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Healthcare Solutions - Daniel Wilcomb";
     
     const metaDescription = document.querySelector('meta[name="description"]');

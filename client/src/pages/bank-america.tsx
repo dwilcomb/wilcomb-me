@@ -11,6 +11,7 @@ export default function BankAmerica() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Bank of America - Daniel Wilcomb";
     
     const metaDescription = document.querySelector('meta[name="description"]');
