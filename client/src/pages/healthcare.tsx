@@ -114,7 +114,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/69a3503d-e0b1-4f62-b97f-ce67be249246_rw_600.png?h=0d6b7c8a728bf97db3ba95d508390928" 
+                    src="/attached_assets/images/medication-regimen.png" 
                     alt="Precision medication regimen" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -122,7 +122,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/480f189a-2c2b-4f15-bf1e-20683d6be4ae_rw_1920.jpeg?h=6733fd32b6d158023e599b78f36a9750" 
+                    src="/attached_assets/images/home-hub-device.jpeg" 
                     alt="Connected Health Home Hub Device" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -137,7 +137,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/15b33e5d-53d1-4aab-b23a-e9fca7513832_rw_1920.jpeg?h=abf72f6cb8c30300ca3f1a548b44c2e7" 
+                    src="/attached_assets/images/packaging-prototype-progress.jpeg" 
                     alt="Packaging prototype in-progress" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -145,7 +145,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/fc000874-6e78-44ec-8d63-3191c8d05c28_rw_1920.jpeg?h=a597b38c8a9d29accf1590d06bd16a27" 
+                    src="/attached_assets/images/packaging-exterior.jpeg" 
                     alt="Packaging Prototype - exterior" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -153,7 +153,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/7b1eb544-71c9-4cfe-b974-783856ff6951_rw_1920.jpeg?h=cc96459184a41d3c5c109757c727c772" 
+                    src="/attached_assets/images/packaging-interior.jpeg" 
                     alt="Packaging Prototype - interior" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -167,7 +167,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/f7dfd2f9-98f2-42e5-b47c-521cc80ef0b1_rw_600.png?h=7068590368d7d9fe2ee94b63a66b8e38" 
+                    src="/attached_assets/images/patient-app.png" 
                     alt="Patient App" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -175,7 +175,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5ec15f67-9e57-4d7b-8e5e-b636a9e777b6_rw_1200.png?h=9fe7a7c5464d0f1a6d913f3b62b67914" 
+                    src="/attached_assets/images/connected-devices.png" 
                     alt="Connected Devices" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -204,7 +204,7 @@ export default function Healthcare() {
               <div className="space-y-6">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/57cb7d90-cfdb-48c5-bd72-cb654000666e_rw_600.png?h=309f1cfef3935de7224d82970e513b76" 
+                    src="/attached_assets/images/call-center-nurse.png" 
                     alt="Call center nurse coordination" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -212,7 +212,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/d469676f-fcac-4e82-b681-1c4fb0f7399e_rw_600.png?h=70ef1f1fd6212c4eeaf1a2fa28ee0ec6" 
+                    src="/attached_assets/images/care-team.png" 
                     alt="Coordinated Care Team" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -226,7 +226,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/dde42f3e-bf9b-476c-9d2f-55ef0458159b_rw_600.png?h=0c641cb73f39b2d7a020343ef869c4b7" 
+                    src="/attached_assets/images/home-health-visits.png" 
                     alt="Home Health Aide Visits" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -234,7 +234,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/6a87159f-598f-4ae3-821c-e9c7f02fde48_rw_1920.jpeg?h=be6a04a1834ef08a4f000e8cec04253e" 
+                    src="/attached_assets/images/telehealth-visits.jpeg" 
                     alt="Tele-health Visits" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -255,7 +255,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/2de65998-f0fb-4b4e-bddd-5b4401c9d4e9_rw_1920.jpeg?h=005d53c6c305d7ae7685a5bc9c28f973" 
+                    src="/attached_assets/images/software-brainstorming.jpeg" 
                     alt="Software design brainstorming" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -263,7 +263,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/f668bf43-556e-4b3f-95ed-599134228718_rw_1920.jpeg?h=eae6208e1dfc29deacbe75b9e762a280" 
+                    src="/attached_assets/images/cross-disciplinary.jpeg" 
                     alt="Cross-disciplinary participation" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -273,7 +273,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5e86a366-9f18-4735-897f-612f20da5191_rw_1920.jpeg?h=0b2d45d49e8a3f0c460516eefab6adfc" 
+                    src="/attached_assets/images/whiteboards.jpeg" 
                     alt="Miles of whiteboards" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -281,7 +281,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5ccc6178-73af-49ee-a9d6-0dc798947f2e_rw_1920.jpeg?h=0c120f4776d42b9a0b8dcb72192ae81b" 
+                    src="/attached_assets/images/design-review.jpeg" 
                     alt="Iterative design review" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />

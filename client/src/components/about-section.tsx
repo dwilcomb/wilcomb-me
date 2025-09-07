@@ -46,7 +46,7 @@ export default function AboutSection() {
           <div className="lg:pl-12">
             <div className="relative group">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=700" 
+                src="/attached_assets/images/profile-photo.jpg" 
                 alt="Daniel Wilcomb, Product Design Leader" 
                 className="w-full rounded-sm shadow-xl transition-all duration-300 group-hover:shadow-2xl"
                 loading="lazy"

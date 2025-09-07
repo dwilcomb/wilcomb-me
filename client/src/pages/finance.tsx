@@ -63,7 +63,7 @@ export default function Finance() {
           <div className="prose prose-lg max-w-none">
             <div className="mb-16">
               <img 
-                src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/05501b24-9f35-43a7-b63f-eb1459fc717d_rw_3840.png?h=f58933ce4a5ebc1cc40e40045e5b7a65" 
+                src="/attached_assets/images/finance-hero.png" 
                 alt="Enterprise Financial Planning & Analysis Platform" 
                 className="w-full rounded-sm shadow-lg"
               />
@@ -101,14 +101,14 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/1ce74238-5275-4faa-ad34-7e8c35e8ebb8_rw_1200.png?h=228b86d177f2361b20ff500d27995922" 
+                  src="/attached_assets/images/legacy-interface-1.png" 
                   alt="Legacy OneStream Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/6f00a48d-c0cd-4f40-9ad9-1f87066bad22_rw_1200.png?h=8307bc1a23ddf0e5e7a70b89c9fb014d" 
+                  src="/attached_assets/images/legacy-interface-2.png" 
                   alt="Complex Legacy Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -117,7 +117,7 @@ export default function Finance() {
 
             <div className="mb-16">
               <img 
-                src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/644dfc75-7ad7-4228-bff8-17ad96501354_rw_1920.jpeg?h=3ada9c0ead6e6bf7f22cc68e9bea0348" 
+                src="/attached_assets/images/forge-studio.jpeg" 
                 alt="The Forge at OneStream" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />
@@ -141,7 +141,7 @@ export default function Finance() {
             <div className="grid md:grid-cols-3 gap-6 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/7318207c-eded-4317-add1-99f223d30261_rw_1200.jpg?h=56b2306455933369e465e4f25a337054" 
+                  src="/attached_assets/images/ux-maturity.jpg" 
                   alt="UX Maturity" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -149,7 +149,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/709bd56a-b6dd-44a9-b3ce-ce2414e88bba_rw_1200.jpg?h=557c643a2432c028cffa5cc8d2eee5ab" 
+                  src="/attached_assets/images/atomic-design.jpg" 
                   alt="Atomic Design" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -157,7 +157,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/d2b3555a-937c-4985-b8e2-d65b9293b644_rw_1200.png?h=9ee8372d39274b4d407a8ee6ab5466f8" 
+                  src="/attached_assets/images/quicksilver-system.png" 
                   alt="QuickSilver Design System Editions" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -200,14 +200,14 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/379fc0dc-d9b7-4ac6-a072-8eb0ccc7c92e_rw_1920.png?h=827878ccee4570ea149b783f47a7a5a3" 
+                  src="/attached_assets/images/new-interface-1.png" 
                   alt="New Business User Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/6cdc8556-4b69-477c-bb8a-c1ccb0ebaaf3_rw_1920.png?h=16c44b6e15076bd3fca8a472571221db" 
+                  src="/attached_assets/images/new-interface-2.png" 
                   alt="Modern Financial Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -231,7 +231,7 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/922ff75f-e304-44ec-af3b-241a08f927c8_rw_1200.png?h=09f5ed0d8a1ba805bd1851ff452903f4" 
+                  src="/attached_assets/images/icon-library.png" 
                   alt="Icon Library" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -239,7 +239,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/de7c72d5-d328-4aa5-8140-6bb5d8a5f299_rw_1200.png?h=b2608960ee8c4fbfcc0d382a9da7f8c6" 
+                  src="/attached_assets/images/common-elements.png" 
                   alt="Common Elements" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -249,7 +249,7 @@ export default function Finance() {
 
             <div className="mb-16">
               <img 
-                src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/0af8a9c4-9077-42ae-a137-59ada7699831_rw_3840.png?h=441b1fb28373e7392e1d531d859078fc" 
+                src="/attached_assets/images/bank-america.png" 
                 alt="Client Connections Integrated Desktop" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />

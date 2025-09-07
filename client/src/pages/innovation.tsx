@@ -70,7 +70,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/81461691-82a0-46ff-8b1a-d5b6682c3b67_rw_3840.jpeg?h=0e2d8ca800f730877b3dbbcb64c3341b" 
+                  src="/attached_assets/images/design-thinking-process.jpeg" 
                   alt="Design Thinking Process" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -78,7 +78,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/34f04651-ac71-468b-8530-bf2a36ed999f_rw_1920.jpeg?h=e12bce14657e1be0ddb42203eabb730e" 
+                  src="/attached_assets/images/lean-design-process.jpeg" 
                   alt="Lean Design Process" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -104,7 +104,7 @@ export default function Innovation() {
 
             <div className="mb-16">
               <img 
-                src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/d7257f73-91b5-4496-8894-70a03eb6b61f_rw_1920.jpeg?h=c3610910a6d18b551e25447ba86e5914" 
+                src="/attached_assets/images/design-thinking-workshop.jpeg" 
                 alt="Design Thinking Open Workshop" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />
@@ -128,7 +128,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/0f2c6de8-8c43-4962-9b9f-b17ad19f4688_rw_600.png?h=8541068200fe0e2f7eee5bc258e9b025" 
+                  src="/attached_assets/images/collaborative-brainstorming.png" 
                   alt="Collaborative Brainstorming" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -136,7 +136,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/cde32bd0-a95b-4c40-a871-dfdbc9454c01_rw_1920.png?h=bfd2c2aaaaaaae9bc541b02159249bc8" 
+                  src="/attached_assets/images/concept-exploration.png" 
                   alt="Concept Exploration" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -167,7 +167,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/768feaa7-400d-469c-9b95-755d1a83663d_rw_1920.jpeg?h=b2ef1e4856f990ec3218a763153f3d5d" 
+                  src="/attached_assets/images/whiteboard-jazz.jpeg" 
                   alt="Whiteboard Jazz Session" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -175,7 +175,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/c27defc5-6031-4b3f-aaf3-f9a23143cab5_rw_600.png?h=fdf2b2a6288b7e2c0fde5aa9b25abffc" 
+                  src="/attached_assets/images/rapid-prototyping.png" 
                   alt="Rapid Prototyping" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />

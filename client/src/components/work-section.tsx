@@ -10,7 +10,7 @@ export default function WorkSection() {
       category: "Innovation",
       tags: ["Design Thinking", "Lean Design"],
       description: "Lean design methodologies and innovative thinking to solve complex product challenges.",
-      image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/images/innovation-work.jpg",
       url: "/innovation",
       available: true
     },
@@ -19,7 +19,7 @@ export default function WorkSection() {
       category: "Healthcare",
       tags: ["Healthcare"],
       description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/images/healthcare-work.jpg",
       url: "/healthcare",
       available: true
     },
@@ -28,7 +28,7 @@ export default function WorkSection() {
       category: "Finance", 
       tags: ["Finance"],
       description: "Creating user-friendly financial interfaces that make complex data accessible and actionable.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/images/finance-work.jpg",
       url: "/finance", 
       available: true
     },
@@ -37,7 +37,7 @@ export default function WorkSection() {
       category: "Design Systems",
       tags: ["Design Systems"], 
       description: "Scalable design systems that ensure consistency and efficiency across product teams.",
-      image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/images/design-systems-work.jpg",
       url: "https://wilcomb.me/design-systems",
       available: false
     },
@@ -46,7 +46,7 @@ export default function WorkSection() {
       category: "Biopharma",
       tags: ["Biopharma"],
       description: "Designing tools and experiences for the biotechnology and pharmaceutical industry.",
-      image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: "/attached_assets/images/biopharma-work.jpg",
       url: "https://wilcomb.me/biopharma",
       available: false
     }
