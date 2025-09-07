@@ -3,6 +3,7 @@ import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
 import PhilosophySection from "@/components/philosophy-section";
 import WorkSection from "@/components/work-section";
+import AdditionalWorkSection from "@/components/additional-work-section";
 import AboutSection from "@/components/about-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
@@ -48,6 +49,7 @@ export default function Home() {
       <HeroSection />
       <PhilosophySection />
       <WorkSection />
+      <AdditionalWorkSection />
       <AboutSection />
       <ContactSection />
       <Footer />
