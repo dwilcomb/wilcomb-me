@@ -10,6 +10,7 @@ import bankAmericaWorkImg from "@assets/image5_1757270848645.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
 import aiArticleImg from "@assets/generated_images/AI_UX_collaboration_illustration_a944aa6b.png";
+import invisibleProductsImg from "@assets/generated_images/SaaS_workflow_integration_strategy_diagram_50e5d25c.png";
 
 export default function WorkSection() {
   const projects = [
@@ -59,13 +60,13 @@ export default function WorkSection() {
       available: true
     },
     {
-      title: "Design Systems",
-      category: "Design Systems",
-      tags: ["Design Systems"], 
-      description: "Scalable atomic design systems that ensure consistency and efficiency across product teams.",
-      image: designSystemsWorkImg,
-      url: "https://wilcomb.me/design-systems",
-      available: false
+      title: "Invisible Products",
+      category: "Product Strategy",
+      tags: ["SaaS", "Product Strategy"],
+      description: "Why the future of SaaS belongs to companies that organize around user journeys, not org charts.",
+      image: invisibleProductsImg,
+      url: "/invisible-products",
+      available: true
     },
     {
       title: "Biopharma Solutions",
