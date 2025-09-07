@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
+import traditionalProductSuiteImg from "@assets/Product Interfaces_1757273171854.jpg";
 
 export default function InvisibleProducts() {
   const [, setLocation] = useLocation();
@@ -152,6 +153,13 @@ export default function InvisibleProducts() {
             <div className="grid md:grid-cols-1 gap-8 mb-8">
               <div className="bg-card p-6 rounded-sm border border-border">
                 <h3 className="font-serif text-xl font-normal text-foreground mb-4">Traditional Product Suite</h3>
+                <div className="mb-6">
+                  <img 
+                    src={traditionalProductSuiteImg} 
+                    alt="Traditional Product Suite diagram showing separate product interfaces with minimal integration"
+                    className="w-full h-auto rounded-sm"
+                  />
+                </div>
                 <p className="text-muted-foreground font-light mb-4">
                   Products each have their own interface, and are internally organized around their own feature set. Consistency between products tends to be limited to look-and-feel.
                 </p>
@@ -159,6 +167,10 @@ export default function InvisibleProducts() {
               
               <div className="bg-accent/10 p-6 rounded-sm border border-accent/20">
                 <h3 className="font-serif text-xl font-normal text-foreground mb-4">Interface Inversion</h3>
+                {/* Placeholder for second image */}
+                <div className="mb-6 h-64 bg-muted/30 rounded-sm flex items-center justify-center border-2 border-dashed border-muted">
+                  <span className="text-muted-foreground text-sm">Interface Inversion diagram coming soon</span>
+                </div>
                 <p className="text-muted-foreground font-light">
                   Interfaces are tailored to distinct communities of users that share similar workflows within and across products. The lines between what functionality is being handled by which product becomes invisible.
                 </p>
