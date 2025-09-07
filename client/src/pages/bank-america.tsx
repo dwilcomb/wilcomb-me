@@ -162,7 +162,7 @@ export default function BankAmerica() {
                 <img 
                   src={bankingAssociateImg} 
                   alt="Banking Associate Interface" 
-                  className="w-full aspect-video object-cover rounded-sm"
+                  className="w-full aspect-video object-cover object-top rounded-sm"
                 />
               </div>
               
