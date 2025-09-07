@@ -10,7 +10,7 @@ import bankAmericaWorkImg from "@assets/image5_1757270848645.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
 import aiArticleImg from "@assets/generated_images/AI_UX_collaboration_illustration_a944aa6b.png";
-import invisibleProductsImg from "@assets/generated_images/SaaS_workflow_integration_strategy_diagram_50e5d25c.png";
+import invisibleProductsImg from "@assets/images/innovation-work.jpg";
 
 export default function WorkSection() {
   const projects = [
