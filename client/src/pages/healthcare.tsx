@@ -52,7 +52,7 @@ export default function Healthcare() {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light max-w-2xl">
-            Designing comprehensive healthcare experiences that improve patient outcomes through connected devices, coordinated care, and intuitive interfaces.
+            Comprehensive healthcare experiences that improve patient outcomes through connected devices, coordinated care, and intuitive interfaces.
           </p>
         </div>
       </section>
@@ -70,13 +70,7 @@ export default function Healthcare() {
               </p>
             </div>
 
-            <div className="mb-16">
-              <img 
-                src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/ffc45fa1-1bed-4ad8-9528-9adddf226595_rw_1920.jpeg?h=7f4bf42ffa370e8a5ae1017d2fac0ae2" 
-                alt="Connected Health Platform" 
-                className="w-full rounded-sm shadow-lg"
-              />
-            </div>
+
 
             <div className="bg-card rounded-sm p-8 border border-border mb-16">
               <h2 className="font-serif text-3xl font-normal text-foreground mb-6 tracking-tight">
@@ -86,6 +80,8 @@ export default function Healthcare() {
                 An innovative, patient-centric approach worth $600-Million
               </p>
               <p className="text-sm text-accent font-mono tracking-wide uppercase">
+                Alere Accountable Care Solutions
+                <br/>
                 Role: Product Design Director
               </p>
             </div>
@@ -107,102 +103,191 @@ export default function Healthcare() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/9634ada1-d991-4db9-83c0-cc943c50ae05_rw_1200.png?h=473c0df608bc2b2d0ab983c32f88bd76" 
-                  alt="Medication Management System" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
+            {/* Step 1: Prescription and Kit Delivery */}
+            <div className="grid md:grid-cols-2 gap-12 items-start mb-20">
+              <div className="space-y-6">
+                <h4 className="font-serif text-xl font-normal text-foreground tracking-tight">Day 1: The Package Arrives</h4>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  The morning after his discharge home, Mark receives a package. Inside the package are two boxes. The first contains Mark's first month of prescriptions, pre-portioned for his three-times-a-day regimen - and his monitoring kit, customized to his particular health monitoring needs.
+                </p>
               </div>
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/70a11e69-0670-4843-b4d4-0e5fe1c09e4b_rw_1200.png?h=2e747a4a286a6d104d9199302ac2c474" 
-                  alt="Connected Health Devices" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-              </div>
-            </div>
-
-            <div className="space-y-8 mb-16">
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                The morning after his discharge home, Mark receives a package. Inside the package are two boxes. The first contains Mark's first month of prescriptions, pre-portioned for his three-times-a-day regimen - and his monitoring kit, customized to his particular health monitoring needs.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/69a3503d-e0b1-4f62-b97f-ce67be249246_rw_600.png?h=0d6b7c8a728bf97db3ba95d508390928" 
-                  alt="Precision medication regimen" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Precision medication regimen</p>
-              </div>
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/480f189a-2c2b-4f15-bf1e-20683d6be4ae_rw_1920.jpeg?h=6733fd32b6d158023e599b78f36a9750" 
-                  alt="Connected Health Home Hub Device" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Connected Health Home Hub Device</p>
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/69a3503d-e0b1-4f62-b97f-ce67be249246_rw_600.png?h=0d6b7c8a728bf97db3ba95d508390928" 
+                    alt="Precision medication regimen" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Precision medication regimen</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/480f189a-2c2b-4f15-bf1e-20683d6be4ae_rw_1920.jpeg?h=6733fd32b6d158023e599b78f36a9750" 
+                    alt="Connected Health Home Hub Device" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Home Hub Device</p>
+                </div>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 mb-16">
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/15b33e5d-53d1-4aab-b23a-e9fca7513832_rw_1920.jpeg?h=abf72f6cb8c30300ca3f1a548b44c2e7" 
-                  alt="Packaging prototype in-progress" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Packaging prototype in-progress</p>
-              </div>
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/fc000874-6e78-44ec-8d63-3191c8d05c28_rw_1920.jpeg?h=a597b38c8a9d29accf1590d06bd16a27" 
-                  alt="Packaging Prototype - exterior" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Packaging Prototype - exterior</p>
-              </div>
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/7b1eb544-71c9-4cfe-b974-783856ff6951_rw_1920.jpeg?h=cc96459184a41d3c5c109757c727c772" 
-                  alt="Packaging Prototype - interior" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Packaging Prototype - interior</p>
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/f7dfd2f9-98f2-42e5-b47c-521cc80ef0b1_rw_600.png?h=7068590368d7d9fe2ee94b63a66b8e38" 
-                  alt="Patient App" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Patient App</p>
-              </div>
-              <div>
-                <img 
-                  src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5ec15f67-9e57-4d7b-8e5e-b636a9e777b6_rw_1200.png?h=9fe7a7c5464d0f1a6d913f3b62b67914" 
-                  alt="Connected Devices" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Connected Devices</p>
+            {/* Packaging Development Process */}
+            <div className="mb-20">
+              <h4 className="font-serif text-xl font-normal text-foreground tracking-tight mb-8">Packaging Design Process</h4>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/15b33e5d-53d1-4aab-b23a-e9fca7513832_rw_1920.jpeg?h=abf72f6cb8c30300ca3f1a548b44c2e7" 
+                    alt="Packaging prototype in-progress" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Prototype in-progress</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/fc000874-6e78-44ec-8d63-3191c8d05c28_rw_1920.jpeg?h=a597b38c8a9d29accf1590d06bd16a27" 
+                    alt="Packaging Prototype - exterior" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Exterior design</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/7b1eb544-71c9-4cfe-b974-783856ff6951_rw_1920.jpeg?h=cc96459184a41d3c5c109757c727c772" 
+                    alt="Packaging Prototype - interior" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Interior layout</p>
+                </div>
               </div>
             </div>
 
-            <div className="space-y-8 mb-16">
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                Throughout the day, Mark's home hub device (or the app on his phone) prompts him to use the devices in his kit (such as the pulse oximeter, blood pressure monitor, glucose meter, etc.) and to take his medications at the prescribed times.
-              </p>
+            {/* Step 2: Daily Monitoring */}
+            <div className="grid md:grid-cols-2 gap-12 items-start mb-20">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/f7dfd2f9-98f2-42e5-b47c-521cc80ef0b1_rw_600.png?h=7068590368d7d9fe2ee94b63a66b8e38" 
+                    alt="Patient App" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Patient App</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5ec15f67-9e57-4d7b-8e5e-b636a9e777b6_rw_1200.png?h=9fe7a7c5464d0f1a6d913f3b62b67914" 
+                    alt="Connected Devices" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Connected Devices</p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <h4 className="font-serif text-xl font-normal text-foreground tracking-tight">Daily Health Monitoring</h4>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  Throughout the day, Mark's home hub device (or the app on his phone) prompts him to use the devices in his kit (such as the pulse oximeter, blood pressure monitor, glucose meter, etc.) and to take his medications at the prescribed times.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  The devices automatically communicate readings to his medical record, available to his surgeon, primary care physician, and all the members of his care team, who can also receive proactive notifications of any out-of-range results, prompting a phone call, tele-health visit, or intervention in the case of a dangerous situation.
+                </p>
+              </div>
+            </div>
 
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                The devices automatically communicate readings to his medical record, available to his surgeon, primary care physician, and all the members of his care team, who can also receive proactive notifications of any out-of-range results, prompting a phone call, tele-health visit, or intervention in the case of a dangerous situation.
-              </p>
+            {/* Step 3: Care Team Coordination */}
+            <div className="grid md:grid-cols-2 gap-12 items-start mb-20">
+              <div className="space-y-6">
+                <h4 className="font-serif text-xl font-normal text-foreground tracking-tight">Coordinated Care Team</h4>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  Mark's case is monitored daily by a nurse in a dedicated call center, who coordinates his care, checks in to review his status and ask and answer questions related to his health maintenance. The home hub device or phone app also prompt him with questions about key warning signs (shortness of breath, trouble sleeping, surgical site pain or swelling, etc.), as well as reminders about dietary restrictions and upcoming visits.
+                </p>
+              </div>
+              <div className="space-y-6">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/57cb7d90-cfdb-48c5-bd72-cb654000666e_rw_600.png?h=309f1cfef3935de7224d82970e513b76" 
+                    alt="Call center nurse coordination" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Call center nurse coordination</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/d469676f-fcac-4e82-b681-1c4fb0f7399e_rw_600.png?h=70ef1f1fd6212c4eeaf1a2fa28ee0ec6" 
+                    alt="Coordinated Care Team" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Coordinated Care Team</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Step 4: Home Visits and Telehealth */}
+            <div className="grid md:grid-cols-2 gap-12 items-start mb-20">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/dde42f3e-bf9b-476c-9d2f-55ef0458159b_rw_600.png?h=0c641cb73f39b2d7a020343ef869c4b7" 
+                    alt="Home Health Aide Visits" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Home Health Aide Visits</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/6a87159f-598f-4ae3-821c-e9c7f02fde48_rw_1920.jpeg?h=be6a04a1834ef08a4f000e8cec04253e" 
+                    alt="Tele-health Visits" 
+                    className="w-full rounded-sm shadow-lg mb-2"
+                  />
+                  <p className="text-xs text-muted-foreground font-mono tracking-wide">Tele-health Visits</p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <h4 className="font-serif text-xl font-normal text-foreground tracking-tight">In-Home & Virtual Care</h4>
+                <p className="text-lg text-muted-foreground leading-relaxed font-light">
+                  Mark receives regular visits from a home health aide and tele-health appointments with his primary care physician and members of his care team, reducing the need for trips to the office or hospital, which, in addition to being inconvenient and strenuous for a post-surgical patient - carry a dangerous risk of nosocomial infections.
+                </p>
+              </div>
+            </div>
+
+            {/* Development Process */}
+            <div className="mb-20">
+              <h4 className="font-serif text-2xl font-normal text-foreground tracking-tight mb-8">Development Process</h4>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/2de65998-f0fb-4b4e-bddd-5b4401c9d4e9_rw_1920.jpeg?h=005d53c6c305d7ae7685a5bc9c28f973" 
+                    alt="Software design brainstorming" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Software design brainstorming</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/f668bf43-556e-4b3f-95ed-599134228718_rw_1920.jpeg?h=eae6208e1dfc29deacbe75b9e762a280" 
+                    alt="Cross-disciplinary participation" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Cross-disciplinary participation</p>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-8 mt-8">
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5e86a366-9f18-4735-897f-612f20da5191_rw_1920.jpeg?h=0b2d45d49e8a3f0c460516eefab6adfc" 
+                    alt="Miles of whiteboards" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Miles of whiteboards</p>
+                </div>
+                <div>
+                  <img 
+                    src="https://cdn.myportfolio.com/f98d89b9-2eb4-403b-8020-142a97564cf2/5ccc6178-73af-49ee-a9d6-0dc798947f2e_rw_1920.jpeg?h=0c120f4776d42b9a0b8dcb72192ae81b" 
+                    alt="Iterative design review" 
+                    className="w-full rounded-sm shadow-lg mb-4"
+                  />
+                  <p className="text-sm text-muted-foreground font-mono tracking-wide">Iterative design review</p>
+                </div>
+              </div>
             </div>
 
             <div className="bg-card rounded-sm p-8 border border-border mb-16">
