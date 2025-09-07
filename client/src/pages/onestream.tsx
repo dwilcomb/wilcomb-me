@@ -145,30 +145,14 @@ export default function OneStream() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <div>
+            <div className="flex justify-center">
+              <div className="max-w-md">
                 <img 
                   src={uxMaturityImg} 
                   alt="UX Maturity Framework" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">UX Maturity</p>
-              </div>
-              <div>
-                <img 
-                  src={atomicDesignImg} 
-                  alt="Atomic Design Methodology" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Atomic Design</p>
-              </div>
-              <div>
-                <img 
-                  src={quicksilverSystemImg} 
-                  alt="QuickSilver Design System Editions" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">QuickSilver Design System</p>
+                <p className="text-sm text-muted-foreground font-mono tracking-wide text-center">UX Maturity</p>
               </div>
             </div>
           </div>
@@ -226,7 +210,7 @@ export default function OneStream() {
                   alt="New Browser-Based Interface - Streamlined Workflow" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Streamlined workflow approach</p>
+                <p className="text-sm text-muted-foreground font-mono tracking-wide">Marketplace-style Third-party app ecosystem</p>
               </div>
             </div>
 
@@ -247,7 +231,23 @@ export default function OneStream() {
               In this context, the design system served a purpose much like the Integrated Truss Structure of the International Space Station, providing detailed guidelines for how new modules should be constructed to interact effectively with the structure as-a-whole. Semantic use of colors, menu system incorporation, navigational paradigms, accessibility standards, libraries of interactive controls, iconography, typography, and more all gave third parties a blueprint for creating seamless, smooth, and delightful interactions for their users on the platform.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div>
+                <img 
+                  src={atomicDesignImg} 
+                  alt="Atomic Design Methodology" 
+                  className="w-full rounded-sm shadow-lg mb-4"
+                />
+                <p className="text-sm text-muted-foreground font-mono tracking-wide">Atomic Design</p>
+              </div>
+              <div>
+                <img 
+                  src={quicksilverSystemImg} 
+                  alt="QuickSilver Design System Editions" 
+                  className="w-full rounded-sm shadow-lg mb-4"
+                />
+                <p className="text-sm text-muted-foreground font-mono tracking-wide">QuickSilver Design System</p>
+              </div>
               <div>
                 <img 
                   src={iconLibraryImg} 
