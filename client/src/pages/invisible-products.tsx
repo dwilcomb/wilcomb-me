@@ -176,7 +176,7 @@ export default function InvisibleProducts() {
                   />
                 </div>
                 <p className="text-muted-foreground font-light">
-                  Interfaces are tailored to distinct communities of users that share similar workflows within and across products. The lines between what functionality is being handled by which product becomes invisible.
+                  Interfaces are tailored to distinct communities of users that share similar workflows within and across products. The lines between what functionality is being handled by which product become invisible.
                 </p>
               </div>
             </div>
