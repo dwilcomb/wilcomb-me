@@ -8,7 +8,8 @@ export default function AboutSection() {
     "Agentic AI",
     "Design Systems",
     "Team Building",
-    "Design Thinking"
+    "Design Thinking",
+    "Agile and Lean Methodologies"
   ];
 
   return (
