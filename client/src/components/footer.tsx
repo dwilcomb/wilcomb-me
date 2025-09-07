@@ -1,4 +1,5 @@
-import { Linkedin, Dribbble } from "lucide-react";
+import { Linkedin } from "lucide-react";
+import { SiMedium } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -22,12 +23,14 @@ export default function Footer() {
               <Linkedin className="h-4 w-4" />
             </a>
             <a 
-              href="#" 
+              href="https://medium.com/@danielwilcomb" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors duration-300 opacity-75 hover:opacity-100"
-              data-testid="footer-dribbble"
-              aria-label="Dribbble Profile"
+              data-testid="footer-medium"
+              aria-label="Medium Profile"
             >
-              <Dribbble className="h-4 w-4" />
+              <SiMedium className="h-4 w-4" />
             </a>
           </div>
         </div>
