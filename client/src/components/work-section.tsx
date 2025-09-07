@@ -41,21 +41,21 @@ export default function WorkSection() {
       available: true
     },
     {
-      title: "Bank of America",
-      category: "Financial Services", 
-      tags: ["Customer Service", "Integration"],
-      description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
-      image: bankAmericaWorkImg,
-      url: "/bank-america", 
-      available: true
-    },
-    {
       title: "Stop Panicking about AI",
       category: "Thought Leadership",
       tags: ["AI", "UX Strategy"],
       description: "A message to the UX community about using AI as a tool to enhance design and reduce cognitive overhead.",
       image: aiArticleImg,
       url: "/ai-article",
+      available: true
+    },
+    {
+      title: "Bank of America",
+      category: "Financial Services", 
+      tags: ["Customer Service", "Integration"],
+      description: "Integrated customer service platform connecting disparate business lines for comprehensive client relationships.",
+      image: bankAmericaWorkImg,
+      url: "/bank-america", 
       available: true
     },
     {
