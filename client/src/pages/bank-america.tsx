@@ -12,6 +12,7 @@ import investmentCenterImg from "@assets/image4_1757270705638.png";
 import consolidatedActivitiesImg from "@assets/image5_1757270848645.png";
 import consolidatedOpportunitiesImg from "@assets/image7_1757270928813.png";
 import newConsolidatedActivitiesImg from "@assets/image8_1757271073172.png";
+import bookOfBusinessImg from "@assets/image6_1757271205340.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -244,9 +245,9 @@ export default function BankAmerica() {
             
             <div className="bg-card p-8 rounded-sm border border-border">
               <img 
-                src={financeHeroImg} 
+                src={bookOfBusinessImg} 
                 alt="Consolidated Book of Business Interface" 
-                className="w-full aspect-video object-cover rounded-sm mb-6"
+                className="w-full aspect-video object-cover object-top rounded-sm mb-6"
               />
               <p className="text-muted-foreground font-light text-center">
                 Day-planner paradigm with comprehensive customer portfolio view
