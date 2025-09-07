@@ -10,6 +10,7 @@ import bankingAssociateImg from "@assets/image3_1757270160674.png";
 import brokerageAssociateImg from "@assets/image2_1757270393720.png";
 import investmentCenterImg from "@assets/image4_1757270705638.png";
 import consolidatedActivitiesImg from "@assets/image5_1757270848645.png";
+import consolidatedOpportunitiesImg from "@assets/image7_1757270928813.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -221,9 +222,9 @@ export default function BankAmerica() {
                   Identification of cross-selling opportunities and relationship expansion possibilities.
                 </p>
                 <img 
-                  src={newInterface1Img} 
+                  src={consolidatedOpportunitiesImg} 
                   alt="Consolidated Opportunities View" 
-                  className="w-full aspect-video object-cover rounded-sm"
+                  className="w-full aspect-video object-cover object-top rounded-sm"
                 />
               </div>
             </div>
