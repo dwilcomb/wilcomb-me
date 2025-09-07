@@ -134,7 +134,7 @@ export default function WorkSection() {
                     <span className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link cursor-pointer"
                       data-testid={`project-link-${index}`}
                     >
-                      View Case Study
+                      Learn More
                       <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
                     </span>
                   </Link>
