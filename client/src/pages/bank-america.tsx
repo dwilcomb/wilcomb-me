@@ -8,6 +8,7 @@ import newInterface1Img from "@assets/images/new-interface-1.png";
 import newInterface2Img from "@assets/images/new-interface-2.png";
 import bankingAssociateImg from "@assets/image3_1757270160674.png";
 import brokerageAssociateImg from "@assets/image2_1757270393720.png";
+import investmentCenterImg from "@assets/image4_1757270705638.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -185,9 +186,9 @@ export default function BankAmerica() {
                   Comprehensive view combining banking and investment services for high-value clients.
                 </p>
                 <img 
-                  src={financeHeroImg} 
+                  src={investmentCenterImg} 
                   alt="Investment Center Associate Interface" 
-                  className="w-full aspect-video object-cover rounded-sm"
+                  className="w-full aspect-video object-cover object-top rounded-sm"
                 />
               </div>
             </div>
