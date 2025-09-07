@@ -5,6 +5,7 @@ import { Link, useLocation } from "wouter";
 import financeHeroImg from "@assets/images/finance-hero.png";
 import legacyInterface1Img from "@assets/images/legacy-interface-1.png";
 import legacyInterface2Img from "@assets/images/legacy-interface-2.png";
+import clumsyPredictiveAnalyticsImg from "@assets/Clumsy predictive analytics_1757269155038.png";
 import forgeStudioImg from "@assets/images/forge-studio.jpeg";
 import uxMaturityImg from "@assets/images/ux-maturity.jpg";
 import atomicDesignImg from "@assets/images/atomic-design.jpg";
@@ -109,15 +110,15 @@ export default function OneStream() {
                   alt="Legacy OneStream Interface - Complex Data Management" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Legacy data management interface</p>
+                <p className="text-sm text-muted-foreground font-mono tracking-wide">Dense, Developer-style interface</p>
               </div>
               <div>
                 <img 
-                  src={legacyInterface2Img} 
-                  alt="Legacy OneStream Interface - Technical Complexity" 
+                  src={clumsyPredictiveAnalyticsImg} 
+                  alt="Legacy OneStream Interface - Clumsy Business Simplification" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">SQL-heavy user experience</p>
+                <p className="text-sm text-muted-foreground font-mono tracking-wide">Clumsy attempts at business simplification</p>
               </div>
             </div>
           </div>
