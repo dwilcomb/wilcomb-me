@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
+import resumePdf from "@assets/Wilcomb Resume 2025_1757209813353.pdf";
 
 interface ContactFormData {
   name: string;
@@ -165,9 +166,13 @@ export default function ContactSection() {
                   <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center">
                     <Mail className="h-4 w-4 text-accent" />
                   </div>
-                  <span className="text-muted-foreground" data-testid="contact-email">
-                    hello@wilcomb.me
-                  </span>
+                  <a 
+                    href="mailto:daniel@wilcomb.me" 
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                    data-testid="contact-email"
+                  >
+                    daniel@wilcomb.me
+                  </a>
                 </div>
                 
                 <div className="flex items-center gap-3">
@@ -190,7 +195,8 @@ export default function ContactSection() {
                     <Download className="h-4 w-4 text-accent" />
                   </div>
                   <a 
-                    href="#" 
+                    href={resumePdf} 
+                    download="Daniel_Wilcomb_Resume_2025.pdf"
                     className="text-muted-foreground hover:text-accent transition-colors"
                     data-testid="link-resume"
                   >
