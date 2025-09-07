@@ -6,6 +6,7 @@ import bankAmericaImg from "@assets/images/bank-america.png";
 import financeHeroImg from "@assets/images/finance-hero.png";
 import newInterface1Img from "@assets/images/new-interface-1.png";
 import newInterface2Img from "@assets/images/new-interface-2.png";
+import bankingAssociateImg from "@assets/image3_1757270160674.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -159,7 +160,7 @@ export default function BankAmerica() {
                   Focused on traditional banking services, account management, and transaction processing.
                 </p>
                 <img 
-                  src={newInterface1Img} 
+                  src={bankingAssociateImg} 
                   alt="Banking Associate Interface" 
                   className="w-full aspect-video object-cover rounded-sm"
                 />
