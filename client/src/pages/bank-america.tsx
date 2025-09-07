@@ -7,6 +7,7 @@ import financeHeroImg from "@assets/images/finance-hero.png";
 import newInterface1Img from "@assets/images/new-interface-1.png";
 import newInterface2Img from "@assets/images/new-interface-2.png";
 import bankingAssociateImg from "@assets/image3_1757270160674.png";
+import brokerageAssociateImg from "@assets/image2_1757270393720.png";
 
 export default function BankAmerica() {
   const [, setLocation] = useLocation();
@@ -172,9 +173,9 @@ export default function BankAmerica() {
                   Specialized in investment services, portfolio management, and trading activities.
                 </p>
                 <img 
-                  src={newInterface2Img} 
+                  src={brokerageAssociateImg} 
                   alt="Brokerage Associate Interface" 
-                  className="w-full aspect-video object-cover rounded-sm"
+                  className="w-full aspect-video object-cover object-top rounded-sm"
                 />
               </div>
               
