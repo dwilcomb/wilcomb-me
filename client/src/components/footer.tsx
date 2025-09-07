@@ -12,7 +12,9 @@ export default function Footer() {
           
           <div className="flex items-center space-x-8">
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/dwilcomb" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors duration-300 opacity-75 hover:opacity-100"
               data-testid="footer-linkedin"
               aria-label="LinkedIn Profile"

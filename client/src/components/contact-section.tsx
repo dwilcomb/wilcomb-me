@@ -175,7 +175,9 @@ export default function ContactSection() {
                     <Linkedin className="h-4 w-4 text-accent" />
                   </div>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/in/dwilcomb" 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-accent transition-colors"
                     data-testid="link-linkedin"
                   >
@@ -201,14 +203,14 @@ export default function ContactSection() {
             <div>
               <h3 className="font-serif text-xl font-medium text-foreground mb-4">Response Time</h3>
               <p className="text-muted-foreground">
-                I typically respond to messages within 24 hours during business days. For urgent inquiries, please indicate in your message.
+                I typically respond to messages within 24 hours.
               </p>
             </div>
             
             <div>
               <h3 className="font-serif text-xl font-medium text-foreground mb-4">Collaboration</h3>
               <p className="text-muted-foreground">
-                Open to consulting opportunities, speaking engagements, and strategic design partnerships. Let's discuss how we can work together.
+                Open to full-time positions, consulting opportunities, speaking engagements, and strategic partnerships. Let's discuss how we can work together.
               </p>
             </div>
           </div>
