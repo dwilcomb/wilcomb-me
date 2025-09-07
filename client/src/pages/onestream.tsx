@@ -57,32 +57,26 @@ export default function OneStream() {
             </span>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h1 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-6 tracking-tight leading-tight">
-                OneStream Software
-              </h1>
-              <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
-                Enterprise Financial Planning & Analysis
-              </p>
-              <div className="space-y-4 text-muted-foreground">
-                <div>
-                  <span className="font-medium text-foreground">Role:</span> UI/UX Manager
-                </div>
-                <div>
-                  <span className="font-medium text-foreground">Duration:</span> 2021-2024
-                </div>
-                <div>
-                  <span className="font-medium text-foreground">Team:</span> The Forge - Design Thinking & UX Practice
-                </div>
+          <div className="max-w-2xl">
+            <h1 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-6 tracking-tight leading-tight">
+              OneStream Software
+            </h1>
+            <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+              Enterprise Financial Planning & Analysis
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 text-muted-foreground">
+              <div>
+                <span className="font-medium text-foreground">Role:</span><br />
+                <span className="text-sm">UI/UX Manager</span>
               </div>
-            </div>
-            <div>
-              <img 
-                src={financeHeroImg} 
-                alt="OneStream Financial Planning & Analysis Platform" 
-                className="w-full rounded-sm shadow-xl"
-              />
+              <div>
+                <span className="font-medium text-foreground">Duration:</span><br />
+                <span className="text-sm">2021-2024</span>
+              </div>
+              <div>
+                <span className="font-medium text-foreground">Team:</span><br />
+                <span className="text-sm">The Forge - Design Thinking & UX Practice</span>
+              </div>
             </div>
           </div>
         </div>

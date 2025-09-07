@@ -47,32 +47,26 @@ export default function BankAmerica() {
             </span>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <h1 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-6 tracking-tight leading-tight">
-                Bank of America
-              </h1>
-              <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
-                Client Connections Integrated Desktop
-              </p>
-              <div className="space-y-4 text-muted-foreground">
-                <div>
-                  <span className="font-medium text-foreground">Role:</span> Principal User Experience Architect
-                </div>
-                <div>
-                  <span className="font-medium text-foreground">Platform:</span> Enterprise Customer Service System
-                </div>
-                <div>
-                  <span className="font-medium text-foreground">Scope:</span> Multi-Business Line Integration
-                </div>
+          <div className="max-w-2xl">
+            <h1 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-6 tracking-tight leading-tight">
+              Bank of America
+            </h1>
+            <p className="text-xl text-muted-foreground mb-8 font-light leading-relaxed">
+              Client Connections Integrated Desktop
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 text-muted-foreground">
+              <div>
+                <span className="font-medium text-foreground">Role:</span><br />
+                <span className="text-sm">Principal User Experience Architect</span>
               </div>
-            </div>
-            <div>
-              <img 
-                src={bankAmericaImg} 
-                alt="Bank of America Client Connections Platform" 
-                className="w-full rounded-sm shadow-xl"
-              />
+              <div>
+                <span className="font-medium text-foreground">Platform:</span><br />
+                <span className="text-sm">Enterprise Customer Service System</span>
+              </div>
+              <div>
+                <span className="font-medium text-foreground">Scope:</span><br />
+                <span className="text-sm">Multi-Business Line Integration</span>
+              </div>
             </div>
           </div>
         </div>
