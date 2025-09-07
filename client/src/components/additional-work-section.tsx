@@ -9,7 +9,9 @@ export default function AdditionalWorkSection() {
     "Digital Rights Management",
     "Private Equity",
     "Agentic AI",
-    "Machine Learning"
+    "Machine Learning",
+    "Business Payments",
+    "Consumer Applications"
   ];
 
   return (
