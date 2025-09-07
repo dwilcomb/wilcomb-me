@@ -2,18 +2,8 @@ import { useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
-import financeHeroImg from "@assets/images/finance-hero.png";
-import legacyInterface1Img from "@assets/images/legacy-interface-1.png";
-import legacyInterface2Img from "@assets/images/legacy-interface-2.png";
-import forgeStudioImg from "@assets/images/forge-studio.jpeg";
-import uxMaturityImg from "@assets/images/ux-maturity.jpg";
-import atomicDesignImg from "@assets/images/atomic-design.jpg";
-import quicksilverSystemImg from "@assets/images/quicksilver-system.png";
-import newInterface1Img from "@assets/images/new-interface-1.png";
-import newInterface2Img from "@assets/images/new-interface-2.png";
-import iconLibraryImg from "@assets/images/icon-library.png";
-import commonElementsImg from "@assets/images/common-elements.png";
-import bankAmericaImg from "@assets/images/bank-america.png";
+import oneStreamHeroImg from "@assets/images/finance-hero.png";
+import bankAmericaHeroImg from "@assets/images/bank-america.png";
 
 export default function Finance() {
   const [, setLocation] = useLocation();
@@ -23,7 +13,7 @@ export default function Finance() {
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Enterprise Financial Planning & Analysis platform design. Creating user-friendly financial interfaces and comprehensive design systems for complex data.');
+      metaDescription.setAttribute('content', 'Financial technology case studies including OneStream Software and Bank of America. Enterprise financial planning, analysis, and customer service platform design.');
     }
   }, []);
 
@@ -54,7 +44,7 @@ export default function Finance() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-8">
             <span className="text-accent font-mono text-xs tracking-widest uppercase font-medium opacity-75">
-              Case Study
+              Case Studies
             </span>
           </div>
           
@@ -63,244 +53,153 @@ export default function Finance() {
             <em className="font-light italic">Technology</em>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light max-w-2xl">
-            Creating user-friendly financial interfaces that make complex data accessible and actionable for enterprise financial planning and analysis.
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light max-w-3xl">
+            Designing user-centered financial interfaces that transform complex enterprise data into accessible, actionable insights. From financial planning platforms to integrated customer service systems.
           </p>
         </div>
       </section>
 
-      {/* Content */}
-      <article className="py-16 bg-background">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <div className="mb-16">
-              <img 
-                src={financeHeroImg} 
-                alt="Enterprise Financial Planning & Analysis Platform" 
-                className="w-full rounded-sm shadow-lg"
-              />
-            </div>
-
-            <div className="bg-card rounded-sm p-8 border border-border mb-16">
-              <h2 className="font-serif text-3xl font-normal text-foreground mb-6 tracking-tight">
-                Enterprise Financial <br />
-                <em className="font-light italic">Planning & Analysis</em>
-              </h2>
-              <p className="text-sm text-accent font-mono tracking-wide uppercase mb-4">
-                Role: Product Design Director
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                OneStream's product ecosystem is founded on the concept of Extensible Dimensionality - the ability to automatically consolidate and align financial and operational information from any number of systems of record and use a single version of the truth for everything from forecasting and modeling to strategic planning, operational accounting, multi-region financial reporting, and more.
-              </p>
-            </div>
-
-            <div className="space-y-8 mb-16">
-              <h3 className="font-serif text-2xl font-normal text-foreground tracking-tight">
-                The <em className="font-light italic">Challenge</em>
-              </h3>
+      {/* Case Studies */}
+      <section className="py-20 bg-background">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-16">
+            
+            {/* OneStream Case Study */}
+            <div className="group">
+              <Link href="/onestream" className="block">
+                <div className="relative overflow-hidden rounded-sm mb-8 cursor-pointer">
+                  <img 
+                    src={oneStreamHeroImg} 
+                    alt="OneStream Software Financial Planning Platform" 
+                    className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+              </Link>
               
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                The legacy OneStream system is a Windows-only thick client assembled with stock .Net components out of the necessity of having some kind of interface for the technical innovations developed by the engineers that founded the company. As a result, the application is arranged and presented in a way that makes sense to the engineers who built it, but customers require extensive training.
-              </p>
-
-              <blockquote className="border-l-4 border-accent/30 pl-6 py-4 bg-muted/30 rounded-sm">
-                <p className="text-lg italic text-foreground font-light">
-                  "OneStream is for coders. We are for closers." — Competitor criticism
+              <div className="space-y-6">
+                <div className="flex items-center gap-3 flex-wrap">
+                  <span className="text-accent font-mono text-xs tracking-widest uppercase opacity-75 font-medium">
+                    Enterprise FinTech
+                  </span>
+                  <span className="text-accent font-mono text-xs tracking-widest uppercase opacity-75 font-medium">
+                    Financial Planning
+                  </span>
+                </div>
+                
+                <h2 className="font-serif text-3xl md:text-4xl font-normal text-foreground tracking-tight leading-tight">
+                  OneStream Software
+                </h2>
+                
+                <p className="text-muted-foreground leading-relaxed font-light text-lg">
+                  Transforming financial planning & analysis with user-centered design and comprehensive design systems. Creating The Forge - OneStream's UX studio to establish user-first development principles.
                 </p>
-              </blockquote>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src={legacyInterface1Img} 
-                  alt="Legacy OneStream Interface" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-              </div>
-              <div>
-                <img 
-                  src={legacyInterface2Img} 
-                  alt="Complex Legacy Interface" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-              </div>
-            </div>
-
-            <div className="mb-16">
-              <img 
-                src={forgeStudioImg} 
-                alt="The Forge at OneStream" 
-                className="w-full rounded-sm shadow-lg mb-4"
-              />
-              <p className="text-sm text-muted-foreground font-mono tracking-wide">The Forge at OneStream</p>
-            </div>
-
-            <div className="space-y-8 mb-16">
-              <h3 className="font-serif text-2xl font-normal text-foreground tracking-tight">
-                The Forge: UX <em className="font-light italic">Revolution</em>
-              </h3>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                I created The Forge - OneStream's User Experience studio - not only to correct the enormous UX debt behind the product, but to act as a new center of gravity in product strategy and execution, effectively reconfiguring OneStream's product development DNA from its engineering-driven ethos to a true user-first set of principles.
-              </p>
-
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                A comprehensive and continuous research and testing framework. Full agile process and scrum team integration. An atomic design system managed as a product. The Forge rapidly became a rallying point for consistency, collaboration, and process maturity, all leading to superior product and user outcomes.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-6 mb-16">
-              <div>
-                <img 
-                  src={uxMaturityImg} 
-                  alt="UX Maturity" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">UX Maturity</p>
-              </div>
-              <div>
-                <img 
-                  src={atomicDesignImg} 
-                  alt="Atomic Design" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Atomic Design</p>
-              </div>
-              <div>
-                <img 
-                  src={quicksilverSystemImg} 
-                  alt="QuickSilver Design System Editions" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">QuickSilver Design System</p>
-              </div>
-            </div>
-
-            <div className="bg-card rounded-sm p-8 border border-border mb-16">
-              <h3 className="font-serif text-xl font-normal text-foreground mb-4 tracking-tight">Early Insight: Two User Communities</h3>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h4 className="font-medium text-foreground mb-3">Technical Data Administrators</h4>
-                  <p className="text-muted-foreground font-light text-sm leading-relaxed">
-                    Expert consultants and customer personnel who managed data flow, built complex business rules, and created specialized views for business users.
-                  </p>
+                
+                <div className="space-y-4">
+                  <div className="text-muted-foreground">
+                    <span className="font-medium text-foreground">Role:</span> Product Design Director
+                  </div>
+                  <div className="text-muted-foreground">
+                    <span className="font-medium text-foreground">Focus:</span> Extensible Dimensionality • Browser Platform • Design Systems
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-medium text-foreground mb-3">Business Users</h4>
-                  <p className="text-muted-foreground font-light text-sm leading-relaxed">
-                    Beneficiaries using consolidated data for operations, reporting, planning, and analysis—freed from system mechanics to focus on their core responsibilities.
-                  </p>
+                
+                <Link href="/onestream">
+                  <span className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link cursor-pointer">
+                    View Case Study
+                    <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Bank of America Case Study */}
+            <div className="group">
+              <Link href="/bank-america" className="block">
+                <div className="relative overflow-hidden rounded-sm mb-8 cursor-pointer">
+                  <img 
+                    src={bankAmericaHeroImg} 
+                    alt="Bank of America Client Connections Platform" 
+                    className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
-              </div>
-            </div>
-
-            <div className="space-y-8 mb-16">
-              <h3 className="font-serif text-2xl font-normal text-foreground tracking-tight">
-                A New <em className="font-light italic">Vision</em>
-              </h3>
+              </Link>
               
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                It was clear that business users needed an environment tailored to their needs; shoe-horning their mental model and operational workflows into an engineering-centric application simply wouldn't work. A large, browser-based strategic initiative took shape.
-              </p>
-
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                Business user functionality was mapped out in detail, and matrixed with user archetypes to identify a set of high impact user groups that largely overlapped in their functional needs. This "sweet spot" formed the first target in a multigenerational roadmap.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src={newInterface1Img} 
-                  alt="New Business User Interface" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-              </div>
-              <div>
-                <img 
-                  src={newInterface2Img} 
-                  alt="Modern Financial Interface" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-              </div>
-            </div>
-
-            <div className="space-y-8 mb-16">
-              <h3 className="font-serif text-2xl font-normal text-foreground tracking-tight">
-                QuickSilver Design <em className="font-light italic">System</em>
-              </h3>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                As important as it was to have a mature design system in place to guide OneStream's own product design efforts, with the App Store it became exponentially more critical to allow third parties to create coherent and consistent experiences that looked and acted like they belonged together.
-              </p>
-
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                The design system served a purpose much like the Integrated Truss Structure of the International Space Station, providing detailed guidelines for how new modules should be constructed to interact effectively with the structure as-a-whole.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <img 
-                  src={iconLibraryImg} 
-                  alt="Icon Library" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Icon Library</p>
-              </div>
-              <div>
-                <img 
-                  src={commonElementsImg} 
-                  alt="Common Elements" 
-                  className="w-full rounded-sm shadow-lg mb-4"
-                />
-                <p className="text-sm text-muted-foreground font-mono tracking-wide">Common Elements</p>
+              <div className="space-y-6">
+                <div className="flex items-center gap-3 flex-wrap">
+                  <span className="text-accent font-mono text-xs tracking-widest uppercase opacity-75 font-medium">
+                    Financial Services
+                  </span>
+                  <span className="text-accent font-mono text-xs tracking-widest uppercase opacity-75 font-medium">
+                    Integration
+                  </span>
+                </div>
+                
+                <h2 className="font-serif text-3xl md:text-4xl font-normal text-foreground tracking-tight leading-tight">
+                  Bank of America
+                </h2>
+                
+                <p className="text-muted-foreground leading-relaxed font-light text-lg">
+                  Integrated customer service platform connecting disparate business lines for comprehensive client relationships. Creating 360-degree customer views for enhanced service delivery.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="text-muted-foreground">
+                    <span className="font-medium text-foreground">Role:</span> Principal User Experience Architect
+                  </div>
+                  <div className="text-muted-foreground">
+                    <span className="font-medium text-foreground">Focus:</span> System Integration • Customer Journey • Service Design
+                  </div>
+                </div>
+                
+                <Link href="/bank-america">
+                  <span className="inline-flex items-center text-foreground hover:text-accent transition-colors duration-300 text-sm font-normal tracking-wide group/link cursor-pointer">
+                    View Case Study
+                    <ArrowRight className="ml-3 h-3 w-3 transition-transform group-hover/link:translate-x-1" />
+                  </span>
+                </Link>
               </div>
             </div>
 
-            <div className="mb-16">
-              <img 
-                src={bankAmericaImg} 
-                alt="Client Connections Integrated Desktop" 
-                className="w-full rounded-sm shadow-lg mb-4"
-              />
-              <p className="text-sm text-muted-foreground font-mono tracking-wide">Client Connections Integrated Desktop</p>
-            </div>
-
-            <div className="bg-card rounded-sm p-8 border border-border mb-16">
-              <h3 className="font-serif text-2xl font-normal text-foreground mb-6 tracking-tight">
-                Bank of America: Client Connections <br />
-                <em className="font-light italic">Integrated Desktop</em>
-              </h3>
-              <p className="text-sm text-accent font-mono tracking-wide uppercase mb-4">
-                Role: Principal User Experience Architect
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed font-light">
-                The Client Connections Integrated Desktop is a core component of Bank of America customer service. Prior to CCID, representatives in each of the business lines could only see their own accounts with the customer with no visibility into the customer's full relationship with the Bank. CCID was designed to improve customer satisfaction and increase customer assets by connecting disparate teams, CRM systems, accounting systems, and data sources.
-              </p>
-            </div>
           </div>
         </div>
-      </article>
+      </section>
 
-      {/* Navigation Footer */}
-      <section className="py-16 bg-card border-t border-border/50">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="flex justify-between items-center">
-            <Link href="/innovation">
-              <Button variant="ghost" className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors duration-300 font-normal text-sm tracking-wide">
-                <ArrowLeft className="mr-2 h-3 w-3" />
-                Innovation & Design Thinking
-              </Button>
-            </Link>
+      {/* Overview Section */}
+      <section className="py-20 bg-card/30">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="font-serif text-3xl md:text-4xl font-normal text-foreground tracking-tight mb-8">
+            Financial Technology Expertise
+          </h2>
+          
+          <p className="text-muted-foreground leading-relaxed font-light text-lg mb-12 max-w-3xl mx-auto">
+            Over a decade of experience designing enterprise financial technology solutions, from comprehensive financial planning platforms to integrated customer service systems. Specializing in transforming complex financial data into intuitive, actionable user experiences.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8 text-left">
+            <div>
+              <h3 className="font-serif text-xl font-normal text-foreground mb-4">Enterprise Platforms</h3>
+              <p className="text-muted-foreground font-light text-sm">
+                Large-scale financial planning and analysis systems serving Fortune 500 companies with complex data consolidation needs.
+              </p>
+            </div>
             
-            <Link href="/healthcare">
-              <Button variant="ghost" className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors duration-300 font-normal text-sm tracking-wide">
-                Healthcare Solutions
-                <ArrowRight className="ml-2 h-3 w-3" />
-              </Button>
-            </Link>
+            <div>
+              <h3 className="font-serif text-xl font-normal text-foreground mb-4">Customer Experience</h3>
+              <p className="text-muted-foreground font-light text-sm">
+                Integrated service platforms that connect disparate business lines to provide comprehensive customer relationship views.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-serif text-xl font-normal text-foreground mb-4">Design Systems</h3>
+              <p className="text-muted-foreground font-light text-sm">
+                Comprehensive design systems enabling consistent experiences across complex financial product ecosystems and third-party integrations.
+              </p>
+            </div>
           </div>
         </div>
       </section>
