@@ -2,6 +2,18 @@ import { useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
+import financeHeroImg from "@assets/images/finance-hero.png";
+import legacyInterface1Img from "@assets/images/legacy-interface-1.png";
+import legacyInterface2Img from "@assets/images/legacy-interface-2.png";
+import forgeStudioImg from "@assets/images/forge-studio.jpeg";
+import uxMaturityImg from "@assets/images/ux-maturity.jpg";
+import atomicDesignImg from "@assets/images/atomic-design.jpg";
+import quicksilverSystemImg from "@assets/images/quicksilver-system.png";
+import newInterface1Img from "@assets/images/new-interface-1.png";
+import newInterface2Img from "@assets/images/new-interface-2.png";
+import iconLibraryImg from "@assets/images/icon-library.png";
+import commonElementsImg from "@assets/images/common-elements.png";
+import bankAmericaImg from "@assets/images/bank-america.png";
 
 export default function Finance() {
   const [, setLocation] = useLocation();
@@ -63,7 +75,7 @@ export default function Finance() {
           <div className="prose prose-lg max-w-none">
             <div className="mb-16">
               <img 
-                src="/attached_assets/images/finance-hero.png" 
+                src={financeHeroImg} 
                 alt="Enterprise Financial Planning & Analysis Platform" 
                 className="w-full rounded-sm shadow-lg"
               />
@@ -101,14 +113,14 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/legacy-interface-1.png" 
+                  src={legacyInterface1Img} 
                   alt="Legacy OneStream Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/legacy-interface-2.png" 
+                  src={legacyInterface2Img} 
                   alt="Complex Legacy Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -117,7 +129,7 @@ export default function Finance() {
 
             <div className="mb-16">
               <img 
-                src="/attached_assets/images/forge-studio.jpeg" 
+                src={forgeStudioImg} 
                 alt="The Forge at OneStream" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />
@@ -141,7 +153,7 @@ export default function Finance() {
             <div className="grid md:grid-cols-3 gap-6 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/ux-maturity.jpg" 
+                  src={uxMaturityImg} 
                   alt="UX Maturity" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -149,7 +161,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/atomic-design.jpg" 
+                  src={atomicDesignImg} 
                   alt="Atomic Design" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -157,7 +169,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/quicksilver-system.png" 
+                  src={quicksilverSystemImg} 
                   alt="QuickSilver Design System Editions" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -200,14 +212,14 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/new-interface-1.png" 
+                  src={newInterface1Img} 
                   alt="New Business User Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/new-interface-2.png" 
+                  src={newInterface2Img} 
                   alt="Modern Financial Interface" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -231,7 +243,7 @@ export default function Finance() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/icon-library.png" 
+                  src={iconLibraryImg} 
                   alt="Icon Library" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -239,7 +251,7 @@ export default function Finance() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/common-elements.png" 
+                  src={commonElementsImg} 
                   alt="Common Elements" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -249,7 +261,7 @@ export default function Finance() {
 
             <div className="mb-16">
               <img 
-                src="/attached_assets/images/bank-america.png" 
+                src={bankAmericaImg} 
                 alt="Client Connections Integrated Desktop" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />

@@ -2,6 +2,11 @@ import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
+import innovationWorkImg from "@assets/images/innovation-work.jpg";
+import healthcareWorkImg from "@assets/images/healthcare-work.jpg";
+import financeWorkImg from "@assets/images/finance-work.jpg";
+import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
+import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
 
 export default function WorkSection() {
   const projects = [
@@ -10,7 +15,7 @@ export default function WorkSection() {
       category: "Innovation",
       tags: ["Design Thinking", "Lean Design"],
       description: "Lean design methodologies and innovative thinking to solve complex product challenges.",
-      image: "/attached_assets/images/innovation-work.jpg",
+      image: innovationWorkImg,
       url: "/innovation",
       available: true
     },
@@ -19,7 +24,7 @@ export default function WorkSection() {
       category: "Healthcare",
       tags: ["Healthcare"],
       description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
-      image: "/attached_assets/images/healthcare-work.jpg",
+      image: healthcareWorkImg,
       url: "/healthcare",
       available: true
     },
@@ -28,7 +33,7 @@ export default function WorkSection() {
       category: "Finance", 
       tags: ["Finance"],
       description: "Creating user-friendly financial interfaces that make complex data accessible and actionable.",
-      image: "/attached_assets/images/finance-work.jpg",
+      image: financeWorkImg,
       url: "/finance", 
       available: true
     },
@@ -37,7 +42,7 @@ export default function WorkSection() {
       category: "Design Systems",
       tags: ["Design Systems"], 
       description: "Scalable design systems that ensure consistency and efficiency across product teams.",
-      image: "/attached_assets/images/design-systems-work.jpg",
+      image: designSystemsWorkImg,
       url: "https://wilcomb.me/design-systems",
       available: false
     },
@@ -46,7 +51,7 @@ export default function WorkSection() {
       category: "Biopharma",
       tags: ["Biopharma"],
       description: "Designing tools and experiences for the biotechnology and pharmaceutical industry.",
-      image: "/attached_assets/images/biopharma-work.jpg",
+      image: biopharmaWorkImg,
       url: "https://wilcomb.me/biopharma",
       available: false
     }

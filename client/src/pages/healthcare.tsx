@@ -2,6 +2,21 @@ import { useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
+import medicationRegimenImg from "@assets/images/medication-regimen.png";
+import homeHubDeviceImg from "@assets/images/home-hub-device.jpeg";
+import packagingPrototypeProgressImg from "@assets/images/packaging-prototype-progress.jpeg";
+import packagingExteriorImg from "@assets/images/packaging-exterior.jpeg";
+import packagingInteriorImg from "@assets/images/packaging-interior.jpeg";
+import patientAppImg from "@assets/images/patient-app.png";
+import connectedDevicesImg from "@assets/images/connected-devices.png";
+import callCenterNurseImg from "@assets/images/call-center-nurse.png";
+import careTeamImg from "@assets/images/care-team.png";
+import homeHealthVisitsImg from "@assets/images/home-health-visits.png";
+import telehealthVisitsImg from "@assets/images/telehealth-visits.jpeg";
+import softwareBrainstormingImg from "@assets/images/software-brainstorming.jpeg";
+import crossDisciplinaryImg from "@assets/images/cross-disciplinary.jpeg";
+import whiteboardsImg from "@assets/images/whiteboards.jpeg";
+import designReviewImg from "@assets/images/design-review.jpeg";
 
 export default function Healthcare() {
   const [, setLocation] = useLocation();
@@ -114,7 +129,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="/attached_assets/images/medication-regimen.png" 
+                    src={medicationRegimenImg} 
                     alt="Precision medication regimen" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -122,7 +137,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/home-hub-device.jpeg" 
+                    src={homeHubDeviceImg} 
                     alt="Connected Health Home Hub Device" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -137,7 +152,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
                   <img 
-                    src="/attached_assets/images/packaging-prototype-progress.jpeg" 
+                    src={packagingPrototypeProgressImg} 
                     alt="Packaging prototype in-progress" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -145,7 +160,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/packaging-exterior.jpeg" 
+                    src={packagingExteriorImg} 
                     alt="Packaging Prototype - exterior" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -153,7 +168,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/packaging-interior.jpeg" 
+                    src={packagingInteriorImg} 
                     alt="Packaging Prototype - interior" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -167,7 +182,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="/attached_assets/images/patient-app.png" 
+                    src={patientAppImg} 
                     alt="Patient App" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -175,7 +190,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/connected-devices.png" 
+                    src={connectedDevicesImg} 
                     alt="Connected Devices" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -204,7 +219,7 @@ export default function Healthcare() {
               <div className="space-y-6">
                 <div>
                   <img 
-                    src="/attached_assets/images/call-center-nurse.png" 
+                    src={callCenterNurseImg} 
                     alt="Call center nurse coordination" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -212,7 +227,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/care-team.png" 
+                    src={careTeamImg} 
                     alt="Coordinated Care Team" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -226,7 +241,7 @@ export default function Healthcare() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <img 
-                    src="/attached_assets/images/home-health-visits.png" 
+                    src={homeHealthVisitsImg} 
                     alt="Home Health Aide Visits" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -234,7 +249,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/telehealth-visits.jpeg" 
+                    src={telehealthVisitsImg} 
                     alt="Tele-health Visits" 
                     className="w-full rounded-sm shadow-lg mb-2"
                   />
@@ -255,7 +270,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <img 
-                    src="/attached_assets/images/software-brainstorming.jpeg" 
+                    src={softwareBrainstormingImg} 
                     alt="Software design brainstorming" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -263,7 +278,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/cross-disciplinary.jpeg" 
+                    src={crossDisciplinaryImg} 
                     alt="Cross-disciplinary participation" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -273,7 +288,7 @@ export default function Healthcare() {
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div>
                   <img 
-                    src="/attached_assets/images/whiteboards.jpeg" 
+                    src={whiteboardsImg} 
                     alt="Miles of whiteboards" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />
@@ -281,7 +296,7 @@ export default function Healthcare() {
                 </div>
                 <div>
                   <img 
-                    src="/attached_assets/images/design-review.jpeg" 
+                    src={designReviewImg} 
                     alt="Iterative design review" 
                     className="w-full rounded-sm shadow-lg mb-4"
                   />

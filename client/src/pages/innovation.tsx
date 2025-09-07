@@ -2,6 +2,13 @@ import { useEffect } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
+import designThinkingProcessImg from "@assets/images/design-thinking-process.jpeg";
+import leanDesignProcessImg from "@assets/images/lean-design-process.jpeg";
+import designThinkingWorkshopImg from "@assets/images/design-thinking-workshop.jpeg";
+import collaborativeBrainstormingImg from "@assets/images/collaborative-brainstorming.png";
+import conceptExplorationImg from "@assets/images/concept-exploration.png";
+import whiteboardJazzImg from "@assets/images/whiteboard-jazz.jpeg";
+import rapidPrototypingImg from "@assets/images/rapid-prototyping.png";
 
 export default function Innovation() {
   const [, setLocation] = useLocation();
@@ -70,7 +77,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/design-thinking-process.jpeg" 
+                  src={designThinkingProcessImg} 
                   alt="Design Thinking Process" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -78,7 +85,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/lean-design-process.jpeg" 
+                  src={leanDesignProcessImg} 
                   alt="Lean Design Process" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -104,7 +111,7 @@ export default function Innovation() {
 
             <div className="mb-16">
               <img 
-                src="/attached_assets/images/design-thinking-workshop.jpeg" 
+                src={designThinkingWorkshopImg} 
                 alt="Design Thinking Open Workshop" 
                 className="w-full rounded-sm shadow-lg mb-4"
               />
@@ -128,7 +135,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/collaborative-brainstorming.png" 
+                  src={collaborativeBrainstormingImg} 
                   alt="Collaborative Brainstorming" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -136,7 +143,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/concept-exploration.png" 
+                  src={conceptExplorationImg} 
                   alt="Concept Exploration" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -167,7 +174,7 @@ export default function Innovation() {
             <div className="grid md:grid-cols-2 gap-8 mb-16">
               <div>
                 <img 
-                  src="/attached_assets/images/whiteboard-jazz.jpeg" 
+                  src={whiteboardJazzImg} 
                   alt="Whiteboard Jazz Session" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />
@@ -175,7 +182,7 @@ export default function Innovation() {
               </div>
               <div>
                 <img 
-                  src="/attached_assets/images/rapid-prototyping.png" 
+                  src={rapidPrototypingImg} 
                   alt="Rapid Prototyping" 
                   className="w-full rounded-sm shadow-lg mb-4"
                 />

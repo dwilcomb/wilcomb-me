@@ -1,3 +1,5 @@
+import profilePhotoImg from "@assets/images/profile-photo.jpg";
+
 export default function AboutSection() {
   const expertise = [
     "Product Strategy",
@@ -46,7 +48,7 @@ export default function AboutSection() {
           <div className="lg:pl-12">
             <div className="relative group">
               <img 
-                src="/attached_assets/images/profile-photo.jpg" 
+                src={profilePhotoImg} 
                 alt="Daniel Wilcomb, Product Design Leader" 
                 className="w-full rounded-sm shadow-xl transition-all duration-300 group-hover:shadow-2xl"
                 loading="lazy"
