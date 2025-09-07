@@ -9,6 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import resumePdf from "@assets/Wilcomb Resume 2025_1757209813353.pdf";
+import profilePhotoImg from "@assets/images/profile-photo.jpg";
 
 interface ContactFormData {
   name: string;
@@ -159,8 +160,17 @@ export default function ContactSection() {
           
           {/* Contact Info */}
           <div className="space-y-8">
-            <div>
-              <h3 className="font-serif text-xl font-medium text-foreground mb-4">Direct Contact</h3>
+            <div className="flex items-start gap-6">
+              <div className="flex-shrink-0">
+                <img 
+                  src={profilePhotoImg} 
+                  alt="Daniel Wilcomb, Product Design Leader" 
+                  className="w-20 h-20 rounded-sm shadow-lg object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="flex-1">
+                <h3 className="font-serif text-xl font-medium text-foreground mb-4">Direct Contact</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center">
@@ -203,6 +213,7 @@ export default function ContactSection() {
                     Download Resume
                   </a>
                 </div>
+              </div>
               </div>
             </div>
             

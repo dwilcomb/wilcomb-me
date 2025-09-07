@@ -1,4 +1,3 @@
-import profilePhotoImg from "@assets/images/profile-photo.jpg";
 
 export default function AboutSection() {
   const expertise = [
@@ -15,7 +14,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-32 bg-card">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="max-w-4xl mx-auto">
           <div>
             <span className="text-accent font-mono text-xs tracking-widest uppercase mb-6 block opacity-75 font-medium">
               About
@@ -44,18 +43,6 @@ export default function AboutSection() {
                   </div>
                 ))}
               </div>
-            </div>
-          </div>
-          
-          <div className="lg:pl-12">
-            <div className="relative group">
-              <img 
-                src={profilePhotoImg} 
-                alt="Daniel Wilcomb, Product Design Leader" 
-                className="w-full rounded-sm shadow-xl transition-all duration-300 group-hover:shadow-2xl"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-background/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-sm"></div>
             </div>
           </div>
         </div>
