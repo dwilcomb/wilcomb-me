@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -78,6 +79,13 @@ export default function Navigation() {
                 {item.label}
               </button>
             ))}
+            <Link
+              href="/resume"
+              className="nav-link text-sm font-normal tracking-wide transition-colors duration-300 text-muted-foreground hover:text-foreground"
+              data-testid="nav-resume"
+            >
+              Résumé
+            </Link>
           </div>
           
           <Button
@@ -106,6 +114,14 @@ export default function Navigation() {
                 {item.label}
               </button>
             ))}
+            <Link
+              href="/resume"
+              className="block text-muted-foreground hover:text-foreground text-base transition-colors"
+              data-testid="mobile-nav-resume"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Résumé
+            </Link>
           </div>
         </div>
       )}

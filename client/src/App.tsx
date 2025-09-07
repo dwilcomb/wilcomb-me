@@ -7,6 +7,7 @@ import Home from "@/pages/home";
 import Innovation from "@/pages/innovation";
 import Healthcare from "@/pages/healthcare";
 import Finance from "@/pages/finance";
+import Resume from "@/pages/resume";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/innovation" component={Innovation} />
       <Route path="/healthcare" component={Healthcare} />
       <Route path="/finance" component={Finance} />
+      <Route path="/resume" component={Resume} />
       <Route component={NotFound} />
     </Switch>
   );
