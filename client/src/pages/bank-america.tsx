@@ -185,7 +185,7 @@ export default function BankAmerica() {
               </div>
               
               <div className="bg-card p-6 rounded-sm border border-border">
-                <h3 className="font-serif text-lg font-normal text-foreground mb-3">Investment Center Associate</h3>
+                <h3 className="font-serif text-lg font-normal text-foreground mb-3">Investment Center</h3>
                 <p className="text-muted-foreground font-light text-sm mb-4">
                   Comprehensive view combining banking and investment services for high-value clients.
                 </p>

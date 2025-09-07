@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
 import innovationWorkImg from "@assets/images/innovation-work.jpg";
-import healthcareWorkImg from "@assets/images/healthcare-work.jpg";
+import healthcareWorkImg from "@assets/Flowsheet with Alert_1757271708671.png";
 import financeWorkImg from "@assets/images/finance-work.jpg";
 import oneStreamWorkImg from "@assets/images/new-interface-1.png";
 import bankAmericaWorkImg from "@assets/image5_1757270848645.png";
@@ -22,7 +22,7 @@ export default function WorkSection() {
       available: true
     },
     {
-      title: "Healthcare Solutions", 
+      title: "Accountable Care Solutions", 
       category: "Healthcare",
       tags: ["Healthcare"],
       description: "Designing intuitive healthcare experiences that improve patient outcomes and provider efficiency.",
