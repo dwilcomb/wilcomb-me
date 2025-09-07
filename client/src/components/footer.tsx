@@ -34,7 +34,7 @@ export default function Footer() {
         
         <div className="mt-12 pt-8 border-t border-border/30 text-center">
           <p className="text-sm text-muted-foreground font-light opacity-75">
-            © 2024 Daniel Wilcomb. All rights reserved.
+            © 2025 Daniel Wilcomb. All rights reserved.
           </p>
         </div>
       </div>
