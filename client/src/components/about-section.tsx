@@ -5,9 +5,10 @@ export default function AboutSection() {
     "Product Strategy",
     "Design Leadership", 
     "User Experience",
+    "Agentic AI",
     "Design Systems",
     "Team Building",
-    "Innovation Process"
+    "Design Thinking"
   ];
 
   return (
@@ -19,17 +20,17 @@ export default function AboutSection() {
               About
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-normal text-foreground mb-8 tracking-tight leading-tight">
-              Player-Coach <em className="font-light italic">Approach</em>
+              Player-Coach <em className="font-light italic">Philosophy</em>
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed font-light text-lg">
               <p>
-                As a Product Design Leader, I believe in leading by example—equally comfortable setting strategic vision and executing alongside my team with hands-on precision.
+                As a Product Design Leader, I believe in leading by example—setting strategic vision and executing alongside my team with hands-on precision.
               </p>
               <p>
                 My approach combines deep design craft with strong leadership skills, fostering environments where creativity thrives and teams consistently deliver exceptional results.
               </p>
               <p>
-                I specialize in building bridges between design, product, and engineering teams, ensuring breakthrough ideas translate into meaningful experiences.
+                Building a culture of collaboration and openness is a hallmark of my philosophy, building bridges between teams from executive leadership to customer support and everything in-between, ensuring breakthrough ideas translate into meaningful experiences.
               </p>
             </div>
             

@@ -41,7 +41,7 @@ export default function WorkSection() {
       title: "Design Systems",
       category: "Design Systems",
       tags: ["Design Systems"], 
-      description: "Scalable design systems that ensure consistency and efficiency across product teams.",
+      description: "Scalable atomic design systems that ensure consistency and efficiency across product teams.",
       image: designSystemsWorkImg,
       url: "https://wilcomb.me/design-systems",
       available: false
@@ -72,15 +72,29 @@ export default function WorkSection() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
           {projects.slice(0, 4).map((project, index) => (
             <div key={index} className="project-card group">
-              <div className="relative overflow-hidden rounded-sm mb-6">
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
+              {project.available ? (
+                <Link href={project.url} className="block">
+                  <div className="relative overflow-hidden rounded-sm mb-6 cursor-pointer">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                </Link>
+              ) : (
+                <div className="relative overflow-hidden rounded-sm mb-6">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+              )}
               
               <div className="space-y-4">
                 <div className="flex items-center gap-3 flex-wrap">
