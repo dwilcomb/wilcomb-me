@@ -1,67 +1,8 @@
-import { useState } from "react";
 import { Mail, Linkedin, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { useToast } from "@/hooks/use-toast";
-import { useMutation } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
 import resumePdf from "@assets/Wilcomb Resume 2025_1757209813353.pdf";
 import profilePhotoImg from "@assets/images/profile-photo.jpg";
 
-interface ContactFormData {
-  name: string;
-  email: string;
-  company: string;
-  message: string;
-}
-
 export default function ContactSection() {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState<ContactFormData>({
-    name: '',
-    email: '',
-    company: '',
-    message: ''
-  });
-
-  const submitContactMutation = useMutation({
-    mutationFn: async (data: ContactFormData) => {
-      return await apiRequest('POST', '/api/contact', data);
-    },
-    onSuccess: () => {
-      toast({
-        title: "Message sent successfully!",
-        description: "Thank you for reaching out. I'll get back to you within 24 hours.",
-      });
-      setFormData({ name: '', email: '', company: '', message: '' });
-    },
-    onError: (error: any) => {
-      toast({
-        title: "Error sending message",
-        description: error.message || "Please try again later.",
-        variant: "destructive",
-      });
-    },
-  });
-
-  const handleInputChange = (field: keyof ContactFormData, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) {
-      toast({
-        title: "Please fill in all required fields",
-        variant: "destructive",
-      });
-      return;
-    }
-    submitContactMutation.mutate(formData);
-  };
 
   return (
     <section id="contact" className="py-32 bg-background">
@@ -78,86 +19,7 @@ export default function ContactSection() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card className="bg-card rounded-xl border border-border">
-            <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <Label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Name *
-                  </Label>
-                  <Input
-                    id="name"
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={(e) => handleInputChange('name', e.target.value)}
-                    placeholder="Your name"
-                    className="w-full"
-                    data-testid="input-name"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    Email *
-                  </Label>
-                  <Input
-                    id="email"
-                    type="email"
-                    required
-                    value={formData.email}
-                    onChange={(e) => handleInputChange('email', e.target.value)}
-                    placeholder="your@email.com"
-                    className="w-full"
-                    data-testid="input-email"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="company" className="block text-sm font-medium text-foreground mb-2">
-                    Company
-                  </Label>
-                  <Input
-                    id="company"
-                    type="text"
-                    value={formData.company}
-                    onChange={(e) => handleInputChange('company', e.target.value)}
-                    placeholder="Your company (optional)"
-                    className="w-full"
-                    data-testid="input-company"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                    Message *
-                  </Label>
-                  <Textarea
-                    id="message"
-                    required
-                    value={formData.message}
-                    onChange={(e) => handleInputChange('message', e.target.value)}
-                    rows={4}
-                    placeholder="Tell me about your project or how I can help..."
-                    className="w-full resize-none"
-                    data-testid="textarea-message"
-                  />
-                </div>
-                
-                <Button 
-                  type="submit" 
-                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors font-medium"
-                  disabled={submitContactMutation.isPending}
-                  data-testid="button-submit-contact"
-                >
-                  {submitContactMutation.isPending ? 'Sending...' : 'Send Message'}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-          
+        <div className="max-w-2xl mx-auto">
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="flex items-start gap-6">
