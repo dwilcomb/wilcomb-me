@@ -3,7 +3,7 @@ runtime: nodejs18
 build:
   commands:
     build:
-      - echo "Installing all dependencies including dev dependencies..."
+      - echo "Installing dependencies for build..."
       - npm ci --include=dev
       - echo "Building application..."
       - npm run build
