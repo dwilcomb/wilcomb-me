@@ -3,17 +3,14 @@ runtime: nodejs22
 build:
   commands:
     build:
-      - echo "Installing dependencies for build..."
-      - npm ci --include=dev
-      - echo "Building application..."
+      - npm ci
       - npm run build
-      - echo "Build completed successfully"
 run:
-  runtime-version: '22'
+  runtime-version: 22.14.0
   command: npm start
   network:
     port: 5000
     env: PORT
   env:
     - name: NODE_ENV
-      value: production
+      value: "production"
