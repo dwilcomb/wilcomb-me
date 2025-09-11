@@ -5,6 +5,16 @@ import { insertContactMessageSchema } from "@shared/schema";
 import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health check endpoint for AWS App Runner
+  app.get("/health", (req, res) => {
+    res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
+  });
+
+  // Root path health check for AWS App Runner
+  app.get("/api/health", (req, res) => {
+    res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
+  });
+
   // Contact form submission
   app.post("/api/contact", async (req, res) => {
     try {
