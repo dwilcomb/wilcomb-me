@@ -13,10 +13,3 @@ run:
   env:
     - name: NODE_ENV
       value: "production"
-  health-check:
-    protocol: HTTP
-    path: /health
-    interval: 10
-    timeout: 5
-    healthy-threshold: 1
-    unhealthy-threshold: 5
