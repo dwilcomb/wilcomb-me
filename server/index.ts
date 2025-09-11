@@ -55,7 +55,7 @@ app.use((req, res, next) => {
     await setupVite(app, server);
   } else {
     // Serve static files in production
-    const clientDist = path.join(process.cwd(), "client", "dist");
+    const clientDist = path.join(process.cwd(), "dist", "public");
     app.use(express.static(clientDist));
     app.get("*", (_, res) => {
       res.sendFile(path.join(clientDist, "index.html"));
