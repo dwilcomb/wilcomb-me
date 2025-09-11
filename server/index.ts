@@ -43,8 +43,8 @@ app.use((req, res, next) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
 
+    console.error('Server error:', err);
     res.status(status).json({ message });
-    throw err;
   });
 
   // importantly only setup vite in development and after
@@ -55,9 +55,10 @@ app.use((req, res, next) => {
     await setupVite(app, server);
   } else {
     // Serve static files in production
-    app.use(express.static(path.resolve("client/dist")));
+    const clientDist = path.join(process.cwd(), "client", "dist");
+    app.use(express.static(clientDist));
     app.get("*", (_, res) => {
-      res.sendFile(path.resolve("client/dist/index.html"));
+      res.sendFile(path.join(clientDist, "index.html"));
     });
   }
 
