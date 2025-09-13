@@ -15,6 +15,15 @@ import invisibleProductsImg from "@assets/IMG_0225_1757274560205.jpeg";
 export default function WorkSection() {
   const projects = [
     {
+      title: "RapidHire: Enterprise Recruiting",
+      category: "Enterprise Software", 
+      tags: ["User Research", "Product Strategy"],
+      description: "Transforming complex enterprise recruiting into intuitive, purpose-built solutions for hourly hiring managers at 16,000+ retail locations.",
+      image: innovationWorkImg, // Using innovation image temporarily
+      url: "/rapidhire", 
+      available: true
+    },
+    {
       title: "OneStream Software",
       category: "Enterprise FinTech", 
       tags: ["Enterprise", "Financial Planning"],

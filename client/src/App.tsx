@@ -11,6 +11,7 @@ import OneStream from "@/pages/onestream";
 import BankAmerica from "@/pages/bank-america";
 import AIArticle from "@/pages/ai-article";
 import InvisibleProducts from "@/pages/invisible-products";
+import RapidHire from "@/pages/rapidhire";
 import Resume from "@/pages/resume";
 import NotFound from "@/pages/not-found";
 
@@ -25,6 +26,7 @@ function Router() {
       <Route path="/bank-america" component={BankAmerica} />
       <Route path="/ai-article" component={AIArticle} />
       <Route path="/invisible-products" component={InvisibleProducts} />
+      <Route path="/rapidhire" component={RapidHire} />
       <Route path="/resume" component={Resume} />
       <Route component={NotFound} />
     </Switch>

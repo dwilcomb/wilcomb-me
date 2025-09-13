@@ -1,0 +1,131 @@
+# RapidHire: Transforming Enterprise Recruiting Through User-Centered Design
+
+## Executive Summary
+
+As Principal Product Designer at Kenexa (IBM), I led the complete reimagining of our recruiting platform for hourly workers, transforming a complex enterprise tool into an intuitive, purpose-built solution. This initiative generated measurable business impact across a $1.4-1.7 billion market segment while establishing new organizational practices in user research and cross-functional collaboration.
+
+**Key Results:**
+- 40% reduction in usability-related support requests within 6 months
+- Deployed across 16,000+ retail locations nationwide
+- Drove cultural transformation toward user-centered design practices
+
+---
+
+## The Challenge
+
+### Understanding the Problem Space
+
+Kenexa's recruiting platform served dual markets with fundamentally different needs. While the system excelled for corporate recruiting, it created significant friction for hourly hiring managers at retail locations, restaurants, and hospitality venues. These users—managing hiring for companies like Target, Home Depot, Darden Foods, and Domino's Pizza—faced an interface designed for HR professionals, not operational managers.
+
+**Core Issues Identified:**
+- Over-engineered workflows requiring extensive setup for simple hiring tasks
+- Information architecture misaligned with hourly hiring mental models
+- Compliance and approval processes irrelevant to location-level hiring
+- 10% higher support costs per revenue dollar for hourly hiring customers
+
+### Research Strategy
+
+Recognizing the limitations of third-hand feedback, I designed an unconventional but effective research approach. Rather than waiting for formal research budget approval, I initiated guerrilla research sessions at client locations—visiting Darden properties (Capital Grille, Olive Garden) and Home Depot stores to conduct contextual interviews with actual users.
+
+This approach yielded rich, unfiltered insights about real-world pain points and mental models, while demonstrating genuine commitment to understanding user needs.
+
+---
+
+## Design Process & Methodology
+
+### Discovery & Synthesis
+
+Working with a cross-functional team, I facilitated intensive synthesis sessions using our "fishbowl" conference room setup—one wall displaying current platform interfaces, the other serving as our ideation whiteboard. This transparent process attracted organic participation from across the organization, including developers, QA leads, and system architects.
+
+**Key Design Insights:**
+- Custom dashboards wouldn't address core complexity issues
+- Disabling modules broke critical business rule dependencies
+- The solution required architectural thinking, not just interface optimization
+
+### The Breakthrough Question
+
+The pivotal moment came from a QA Lead's "crazy question": *"Does it really have to be in Brassring?"* This reframed our approach from modification to abstraction—maintaining backend functionality while creating a purpose-built interface layer.
+
+### Solution Architecture
+
+I proposed RapidHire: a companion interface leveraging existing platform functionality through a custom abstraction layer. This approach delivered:
+- **User Experience:** Workflows tailored specifically to hourly hiring managers
+- **Technical Efficiency:** Minimal backend changes, leveraging existing business rules
+- **Business Value:** Addressed underserved market without cannibalizing core product
+
+---
+
+## Leadership & Collaboration
+
+### Building Cross-Functional Alignment
+
+I secured executive buy-in by presenting comprehensive user research alongside quantified business impact projections. The "don't bring problems, bring solutions" culture required not just identifying issues, but proposing viable paths forward with clear ROI.
+
+### Fostering Innovation Culture
+
+Moving our working sessions to high-visibility common areas created an "open innovation" environment where anyone could contribute. This approach:
+- Accelerated iteration cycles (Monday ideas became Wednesday prototypes)
+- Democratized the design process across organizational levels
+- Built organizational investment in user-centered thinking
+
+### Agile Design Implementation
+
+Working within a company transitioning from waterfall to agile, I established rapid prototyping workflows where developers would create APIs as needed ("not now...but we will by Thursday"). This demonstrated the power of design-development partnership in solving complex technical challenges.
+
+---
+
+## Product Design & Strategy
+
+### User Experience Design
+
+**Responsive-First Approach:** Designed as a modern web application unconstrained by legacy interface technologies, supporting deployment across desktops, tablets, and POS terminals. Tablet optimization was critical for managers who needed floor presence.
+
+**Information Architecture:** Completely restructured navigation and workflows around hourly hiring manager mental models, eliminating corporate recruiting abstractions that created confusion.
+
+**Visual Design System:** Implemented minimal white-labeling with light/dark mode support, creating clear separation between branding and functional design elements while dramatically reducing implementation overhead.
+
+### Strategic Integrations
+
+The clean, purpose-built interface created new partnership opportunities, including integration with HireVue's video interview platform—functionality entirely absent from the corporate-focused base product.
+
+---
+
+## Business Impact & Outcomes
+
+### Quantified Results
+
+- **Market Impact:** Addressed 60-70% of ATS revenue ($1.4-1.7B market segment)
+- **Operational Efficiency:** 40% reduction in usability-related support requests
+- **Scale:** Successfully deployed across 16,000+ retail locations
+- **Customer Satisfaction:** Account managers reported client enthusiasm and expanded engagement
+
+### Organizational Transformation
+
+Beyond product metrics, RapidHire catalyzed cultural change toward user-centered design practices:
+- Established guerrilla research as acceptable methodology
+- Normalized cross-functional collaboration in design processes  
+- Created expectation for rapid iteration and user validation
+- Introduced concept of "Interface Inversion"—tailoring experiences to specific user roles rather than forcing universal solutions
+
+### Strategic Vision: Interface Inversion
+
+This success opened broader strategic questions about role-based experience design across Kenexa's product suite. The principle that user interfaces should adapt to user contexts rather than forcing users to adapt to systems became a guiding philosophy for future product development.
+
+---
+
+## Key Learnings & Applications
+
+### Design Leadership Lessons
+
+1. **Research Innovation:** When formal research processes create barriers, creative approaches can deliver superior insights while building stakeholder investment
+2. **Collaborative Design:** Transparent, inclusive design processes accelerate both solution quality and organizational buy-in
+3. **Technical Partnership:** Deep collaboration with engineering teams enables solutions that pure design thinking cannot achieve alone
+4. **Business Case Development:** User experience improvements must be translated into business metrics that leadership can act upon
+
+### Scalable Methodologies
+
+The RapidHire approach established replicable patterns for addressing complex enterprise UX challenges through abstraction layers, user-centered research methods, and cross-functional collaboration frameworks that continued to influence product development across Kenexa's portfolio.
+
+---
+
+*This case study demonstrates principal-level capabilities in strategic UX leadership, business impact measurement, cross-functional collaboration, and organizational change management within complex enterprise software environments.*
