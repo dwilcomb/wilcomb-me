@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Users, TrendingUp, Target, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
 
 export default function RapidHirePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.title = "RapidHire: Enterprise Recruiting - Daniel Wilcomb";
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
