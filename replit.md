@@ -1,6 +1,6 @@
 # Overview
 
-This is a professional portfolio website for Will Comb, a Product Design Leader. The application is built as a full-stack web application using React for the frontend and Express.js for the backend. It showcases Will's design philosophy, work portfolio, and provides a contact form for potential clients or collaborators to reach out.
+This is a professional portfolio website for Daniel Wilcomb, a Product Design Leader. The application is built as a full-stack web application using React for the frontend and Express.js for the backend. It showcases Daniel's design philosophy, work portfolio, and provides a contact form for potential employers, clients, or collaborators to reach out.
 
 The site emphasizes a "player-coach" approach to design leadership, highlighting expertise in collaboration, inclusiveness, communication, and transparency. It features a clean, modern design with sections for hero content, core principles, work showcase, about information, and contact functionality.
 
