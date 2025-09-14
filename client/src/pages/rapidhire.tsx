@@ -5,6 +5,8 @@ import { ArrowLeft, Users, TrendingUp, Target, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
 import whiteboardImg from "@assets/IMG_0826_1757811134552.JPG?url";
 import fishbowlRoomImg from "@assets/IMG_0871_1757811134552.JPG?url";
+import rapidhireInterface1Img from "@assets/IMG_0228_1757812029124.jpeg?url";
+import rapidhireInterface2Img from "@assets/IMG_0229_1757812029124.jpeg?url";
 
 export default function RapidHirePage() {
   useEffect(() => {
@@ -176,11 +178,39 @@ export default function RapidHirePage() {
               <p className="text-muted-foreground font-light leading-relaxed mb-6">
                 I proposed RapidHire: a companion interface leveraging existing platform functionality through a custom abstraction layer. This approach delivered:
               </p>
-              <ul className="list-disc list-inside text-muted-foreground font-light leading-relaxed mb-6 space-y-2">
+              <ul className="list-disc list-inside text-muted-foreground font-light leading-relaxed mb-8 space-y-2">
                 <li><strong className="text-foreground">User Experience:</strong> Workflows tailored specifically to hourly hiring managers</li>
                 <li><strong className="text-foreground">Technical Efficiency:</strong> Minimal backend changes, leveraging existing business rules</li>
                 <li><strong className="text-foreground">Business Value:</strong> Addressed underserved market without cannibalizing core product</li>
               </ul>
+
+              {/* RapidHire Interface Images */}
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="space-y-4">
+                  <img 
+                    src={rapidhireInterface1Img} 
+                    alt="RapidHire interface showing streamlined hiring workflow designed specifically for hourly hiring managers"
+                    className="w-full rounded-sm border border-border/40"
+                    loading="lazy"
+                    data-testid="img-rapidhire-interface-1"
+                  />
+                  <p className="text-sm text-muted-foreground font-light text-center">
+                    Streamlined RapidHire interface: Purpose-built workflows for hourly hiring managers
+                  </p>
+                </div>
+                <div className="space-y-4">
+                  <img 
+                    src={rapidhireInterface2Img} 
+                    alt="RapidHire companion interface demonstrating simplified user experience compared to complex enterprise platform"
+                    className="w-full rounded-sm border border-border/40"
+                    loading="lazy"
+                    data-testid="img-rapidhire-interface-2"
+                  />
+                  <p className="text-sm text-muted-foreground font-light text-center">
+                    Companion interface approach: Simplified UX leveraging existing platform functionality
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Leadership & Collaboration */}
