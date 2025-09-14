@@ -8,7 +8,7 @@ import financeWorkImg from "@assets/images/finance-work.jpg";
 import oneStreamWorkImg from "@assets/images/new-interface-1.png";
 import bankAmericaWorkImg from "@assets/image5_1757270848645.png";
 import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
-import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
+import biopharmaWorkImg from "@assets/generated_images/pharmaceutical_research_laboratory_4e0e3c4b.png";
 import aiArticleImg from "@assets/generated_images/AI_UX_collaboration_illustration_a944aa6b.png";
 import invisibleProductsImg from "@assets/IMG_0225_1757274560205.jpeg";
 import rapidhireHeroImg from "@assets/IMG_0093_1757812435008.jpeg";
@@ -16,21 +16,21 @@ import rapidhireHeroImg from "@assets/IMG_0093_1757812435008.jpeg";
 export default function WorkSection() {
   const projects = [
     {
-      title: "RapidHire: Enterprise Recruiting",
-      category: "Enterprise Software", 
-      tags: ["User Research", "Product Strategy"],
-      description: "Transforming complex enterprise recruiting into intuitive, purpose-built solutions for hourly hiring managers at 16,000+ retail locations.",
-      image: rapidhireHeroImg,
-      url: "/rapidhire", 
-      available: true
-    },
-    {
       title: "OneStream Software",
       category: "Enterprise FinTech", 
       tags: ["Enterprise", "Financial Planning"],
       description: "Transforming financial planning & analysis with user-centered design and comprehensive design systems.",
       image: oneStreamWorkImg,
       url: "/onestream", 
+      available: true
+    },
+    {
+      title: "RapidHire: Enterprise Recruiting",
+      category: "Enterprise Software", 
+      tags: ["User Research", "Product Strategy"],
+      description: "Transforming complex enterprise recruiting into intuitive, purpose-built solutions for hourly hiring managers at 16,000+ retail locations.",
+      image: rapidhireHeroImg,
+      url: "/rapidhire", 
       available: true
     },
     {
