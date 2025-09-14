@@ -1,0 +1,69 @@
+; <<>> DiG 9.18.27 <<>> _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me CNAME @8.8.8.8
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 42176
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+; EDE: 23 (Network Error): ([205.251.193.183] rcode=REFUSED for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+; EDE: 23 (Network Error): ([205.251.199.121] rcode=REFUSED for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+; EDE: 23 (Network Error): ([205.251.197.26] rcode=REFUSED for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+; EDE: 23 (Network Error): ([2600:9000:5305:1a00::1] rcode=REFUSED for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+; EDE: 23 (Network Error): ([205.251.194.209] rcode=REFUSED for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+; EDE: 22 (No Reachable Authority): (At delegation wilcomb.me for _7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me/cname)
+;; QUESTION SECTION:
+;_7aff79a2e6598288a9688da46d4e02c7.2a57j7824by9exnuqgh4jzqx356ziwi.wilcomb.me. IN CNAME
+
+;; Query time: 191 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Sun Sep 14 15:36:28 UTC 2025
+;; MSG SIZE  rcvd: 848
+
+;; communications error to 1.1.1.1#53: timed out
+;; communications error to 1.1.1.1#53: timed out
+;; communications error to 1.1.1.1#53: timed out
+
+; <<>> DiG 9.18.27 <<>> _d15e6a4ad0ae9eb10d714366b8b979c5.wilcomb.me CNAME @1.1.1.1
+;; global options: +cmd
+;; no servers could be reached
+
+
+; <<>> DiG 9.18.27 <<>> wilcomb.me @8.8.8.8
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 40740
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+; EDE: 23 (Network Error): ([205.251.197.26] rcode=REFUSED for wilcomb.me/a)
+; EDE: 23 (Network Error): ([205.251.199.121] rcode=REFUSED for wilcomb.me/a)
+; EDE: 23 (Network Error): ([2600:9000:5307:7900::1] rcode=REFUSED for wilcomb.me/a)
+; EDE: 23 (Network Error): ([205.251.193.183] rcode=REFUSED for wilcomb.me/a)
+; EDE: 23 (Network Error): ([205.251.194.209] rcode=REFUSED for wilcomb.me/a)
+; EDE: 23 (Network Error): ([2600:9000:5305:1a00::1] rcode=REFUSED for wilcomb.me/a)
+; EDE: 22 (No Reachable Authority): (At delegation wilcomb.me for wilcomb.me/a)
+;; QUESTION SECTION:
+;wilcomb.me.            IN  A
+
+;; Query time: 217 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Sun Sep 14 15:36:43 UTC 2025
+;; MSG SIZE  rcvd: 423
+
+
+; <<>> DiG 9.18.27 <<>> wilcomb.me CAA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 9510
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;wilcomb.me.            IN  CAA
+
+;; Query time: 149 msec
+;; SERVER: 127.0.0.11#53(127.0.0.11) (UDP)
+;; WHEN: Sun Sep 14 15:36:44 UTC 2025
+;; MSG SIZE  rcvd: 28
