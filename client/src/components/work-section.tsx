@@ -102,8 +102,8 @@ export default function WorkSection() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
-          {projects.slice(0, 7).map((project, index) => (
-            <div key={index} className="project-card group">
+          {projects.map((project, index) => (
+            <div key={index} className={`project-card group ${!project.available ? 'opacity-75' : ''}`}>
               {project.available ? (
                 <Link href={project.url} className="block">
                   <div className="relative overflow-hidden rounded-sm mb-6 cursor-pointer">
@@ -117,14 +117,18 @@ export default function WorkSection() {
                   </div>
                 </Link>
               ) : (
-                <div className="relative overflow-hidden rounded-sm mb-6">
+                <div className="relative overflow-hidden rounded-sm mb-6 cursor-not-allowed">
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-64 md:h-80 object-cover transition-all duration-700 group-hover:scale-105"
+                    className="w-full h-64 md:h-80 object-cover transition-all duration-700"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-background/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-background/40 flex items-center justify-center">
+                    <span className="bg-background/90 px-4 py-2 rounded-sm text-foreground font-mono text-sm tracking-widest uppercase">
+                      Coming Soon
+                    </span>
+                  </div>
                 </div>
               )}
               
