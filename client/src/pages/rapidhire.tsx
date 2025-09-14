@@ -3,6 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Users, TrendingUp, Target, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
+import whiteboardImg from "@assets/IMG_0826_1757811134552.JPG?url";
+import fishbowlRoomImg from "@assets/IMG_0871_1757811134552.JPG?url";
 
 export default function RapidHirePage() {
   useEffect(() => {
@@ -118,9 +120,35 @@ export default function RapidHirePage() {
             <div className="mb-16">
               <h2 className="font-serif text-3xl font-normal text-foreground mb-6">Design Process & Methodology</h2>
               <h3 className="font-serif text-xl font-normal text-foreground mb-4">Discovery & Synthesis</h3>
-              <p className="text-muted-foreground font-light leading-relaxed mb-6">
+              <p className="text-muted-foreground font-light leading-relaxed mb-8">
                 Working with a cross-functional team, I facilitated intensive synthesis sessions using our "fishbowl" conference room setup—one wall displaying current platform interfaces, the other serving as our ideation whiteboard. This transparent process attracted organic participation from across the organization, including developers, QA leads, and system architects.
               </p>
+
+              {/* Design Process Images */}
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="space-y-4">
+                  <img 
+                    src={whiteboardImg} 
+                    alt="Whiteboard session showing interface design sketches, prioritization notes, and user flow diagrams during collaborative ideation"
+                    className="w-full rounded-sm border border-border/40"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-muted-foreground font-light text-center">
+                    Whiteboard ideation session: Interface sketches, prioritization frameworks, and user flow exploration
+                  </p>
+                </div>
+                <div className="space-y-4">
+                  <img 
+                    src={fishbowlRoomImg} 
+                    alt="Cross-functional team collaborating in the glass fishbowl conference room with laptops and design materials"
+                    className="w-full rounded-sm border border-border/40"
+                    loading="lazy"
+                  />
+                  <p className="text-sm text-muted-foreground font-light text-center">
+                    Cross-functional collaboration in the "fishbowl" conference room fostering transparent, inclusive design process
+                  </p>
+                </div>
+              </div>
 
               <h4 className="font-serif text-lg font-normal text-foreground mb-4">Key Design Insights:</h4>
               <ul className="list-disc list-inside text-muted-foreground font-light leading-relaxed mb-6 space-y-2">
