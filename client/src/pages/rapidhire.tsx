@@ -251,7 +251,7 @@ export default function RapidHirePage() {
                 <li>Established guerrilla research as acceptable methodology</li>
                 <li>Normalized cross-functional collaboration in design processes</li>
                 <li>Created expectation for rapid iteration and user validation</li>
-                <li>Introduced concept of "Interface Inversion"—tailoring experiences to specific user roles</li>
+                <li>Introduced concept of "<Link href="/invisible-products" className="text-accent hover:text-accent/80 underline font-medium transition-colors">Interface Inversion</Link>"—tailoring experiences to specific user roles</li>
               </ul>
             </div>
 
