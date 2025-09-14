@@ -11,6 +11,7 @@ import designSystemsWorkImg from "@assets/images/design-systems-work.jpg";
 import biopharmaWorkImg from "@assets/images/biopharma-work.jpg";
 import aiArticleImg from "@assets/generated_images/AI_UX_collaboration_illustration_a944aa6b.png";
 import invisibleProductsImg from "@assets/IMG_0225_1757274560205.jpeg";
+import rapidhireHeroImg from "@assets/IMG_0093_1757812435008.jpeg";
 
 export default function WorkSection() {
   const projects = [
@@ -19,7 +20,7 @@ export default function WorkSection() {
       category: "Enterprise Software", 
       tags: ["User Research", "Product Strategy"],
       description: "Transforming complex enterprise recruiting into intuitive, purpose-built solutions for hourly hiring managers at 16,000+ retail locations.",
-      image: innovationWorkImg, // Using innovation image temporarily
+      image: rapidhireHeroImg,
       url: "/rapidhire", 
       available: true
     },
