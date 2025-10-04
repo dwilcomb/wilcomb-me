@@ -217,29 +217,31 @@ export default function Resume() {
             {/* Independent AI Strategy */}
             <div className="mb-12 pb-8 border-b border-border">
               <div className="mb-4">
-                <h4 className="font-serif text-xl font-normal text-foreground mb-1">Independent Artificial Intelligence Strategy</h4>
+                <h4 className="font-serif text-xl font-normal text-foreground mb-1">Independent AI Product Design & Strategy</h4>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
-                  <p className="text-accent font-medium">AI PRODUCT STRATEGIST</p>
+                  <p className="text-accent font-medium">PRINCIPAL DESIGNER, AI PRODUCT STRATEGIST</p>
                   <p className="text-muted-foreground font-light">2024 - 2025</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed font-light mb-4">
-                Bleeding-edge AI product exploration, design, and development. 
-                Conducted intensive user research and AI-driven product design in manufacturing, finance, 
-                and product management. Client initiatives include:
+                Bleeding-edge AI product exploration, design, and development. Conducting intensive user
+                research and AI-driven product design in manufacturing, finance, and product management.
               </p>
               <div className="space-y-4">
                 <div className="text-muted-foreground font-light">
-                  • Operational assessment and process optimization at a large building materials manufacturer, 
-                  leading to ShopFloor - a custom-tailored, AI-powered and accelerated workflow management system 
-                  providing cross-departmental order fulfillment tracking down to individual components of each unit, 
-                  as well as management analytics and AI-powered production, revenue, and cost forecasting.
+                  • Operational assessment and process optimization at a large building materials
+                  manufacturer, leading to ShopFloor - a custom-tailored, AI-powered and accelerated
+                  workflow management system providing cross-departmental order fulfillment tracking
+                  down to individual components of each unit, as well as management analytics and AI-
+                  powered production, revenue, and cost forecasting - resulting in an 80% reduction in
+                  status-related administrative overhead, and 150% increase in responsiveness to
+                  customer order inquiries.
                 </div>
                 <div className="text-muted-foreground font-light">
-                  • Ongoing design and development of an AI-driven product validation and product management toolset 
-                  for evaluating new product concept potential as well as enhancements to existing products in the 
-                  context of existing and planned functionality. (Competitive analysis, market fit, revenue potential, 
-                  comparative opportunity costing, et-cetera.)
+                  • Ongoing design and development of Greenlight - an AI-driven product validation and
+                  product roadmap toolset for evaluating new product concepts as well as enhancements to
+                  existing products in the context of existing and planned functionality. (Competitive
+                  analysis, market fit, revenue potential, comparative opportunity costing, et-cetera.)
                 </div>
               </div>
             </div>
@@ -254,17 +256,18 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed font-light mb-4">
-                I created and led The Forge - OneStream's Design Thinking and User Experience practice - by 
-                leading comprehensive UX activities including research, product strategy, ideation, design, 
-                development, and testing. Collaborated with multidisciplinary teams across the organization 
-                and third-party solution developers to incorporate UX principles into organizational processes 
-                and culture. Educated stakeholders and teams on UX best practices, revolutionizing 
-                methodologies, and embedding UX as a core component of OneStream's corporate DNA.
+                I created and led The Forge - OneStream's Design Thinking and User Experience practice -
+                leading comprehensive UX activities including research, product strategy, ideation, design,
+                development, and testing. Spearheaded the SaaS design strategy for new Web and
+                Marketplace initiatives, directly responsible for a 30% increase in subscription revenue and
+                35% increase in year-over-year total revenue. Incorporated UX principles and design
+                thinking into OneStream's cultural DNA, revolutionized methodologies, and established UX as
+                a core competitive differentiator.
               </p>
               <div className="space-y-3">
                 {[
-                  "Catalyzed OneStream's mission to provide an integrated financial ecosystem for the Enterprise, delivering \"Exponential Value\" - consolidating financial data and planning functionality across disparate systems, allowing the business to focus on its core value proposition rather than operational minutiae.",
-                  "Built and supervised a cross-functional team comprised of designers, researchers, and front-end developers to foster collaboration and attain cohesive project delivery in close partnership with an entire spectrum from Scrum teams to executive management.",
+                  "Catalyzed OneStream's mission of delivering Exponential Value - providing an integrated SaaS financial ecosystem for the Enterprise - consolidating financial data and planning functionality across disparate systems, allowing the business to focus on its core value proposition rather than operational minutiae.",
+                  "Built and supervised a cross-functional team comprised of designers, researchers, and front-end developers, fostering collaboration and attaining cohesive project delivery in close partnership with an entire spectrum of participants from Scrum teams to executive.",
                   "Balanced an intricate combination of business goals, customer needs, and user understanding to create innovative, user-centered product design.",
                   "Created and optimized flexible end-to-end UX processes that enhanced Agile and continually adapted to evolving project requirements.",
                   "Organized company-wide Agile practices around a user-first approach from early conceptualization and roadmapping through iterative design, testing, development, release, and evolution.",
@@ -287,9 +290,9 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed font-light mb-4">
-                Led the ideation of new mobile and Web products across multiple product lines, while 
-                transforming existing offerings into white-labeled solutions for Bottomline's financial 
-                customers. Championed development of a robust design system for uniformity across 
+                Led the ideation of new mobile and Web products across multiple product lines, while
+                transforming existing SaaS offerings into white-labeled solutions for Bottomline's financial
+                customers. Championed development of a robust design system for uniformity across
                 internally developed products as well as products acquired in strategic mergers.
               </p>
               <div className="space-y-3">
@@ -315,15 +318,17 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed font-light mb-4">
-                Led the user experience effort from concept through continuous releases with multinational 
-                teams on shopper applications (native iOS, Android, and responsive Web). Spearheaded 
-                design and development of retailer-facing analytics and catalog/offer management tools for 
-                three-tier monetization.
+                Led the user experience effort from concept through continuous releases with multinational
+                teams on white-labeled native mobile (Android / iOS) shopper applications offering
+                personalized, location-aware shopping features, targeted offers, and wellness-based product
+                recommendations. Spearheaded design and development of retailer-facing analytics and
+                catalog/offer management tools for three-tier monetization.
               </p>
               <div className="space-y-3">
                 {[
-                  "Devised white-labeled shopper apps offering personalized, location-aware shopping features, offer management, and wellness-based product recommendations.",
-                  "Oversaw a comprehensive customer engagement ecosystem using machine learning for personalized shopper experiences."
+                  "Customers realized a 25% increase in customer retention, 60% increase in coupon-based revenue, and 15% increase in basket sizes in users of the mobile application.",
+                  "Oversaw a comprehensive customer engagement ecosystem using machine learning for personalized shopper experiences.",
+                  "Improved targeting and promotional ROI - boosting redemption rates and promotional effectiveness, resulting on a higher return on marketing spend and greater incremental revenue from optimized discounts."
                 ].map((achievement, index) => (
                   <div key={index} className="text-muted-foreground font-light">
                     • {achievement}
@@ -342,19 +347,20 @@ export default function Resume() {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed font-light mb-4">
-                Built and guided a dynamic design team to spearhead the groundbreaking Connected Health 
-                initiative, focused on comprehensive patient care and at-home monitoring in post-surgical, 
-                chronic condition, and other high-risk populations. Operated end-to-end efforts in user 
-                research, software design and development, service design, packaging design, and physical 
-                device design. The ecosystem included tools addressing providers, patients, and payers 
-                through mobile and desktop apps, in-home diagnostic devices, professional care 
-                management, real-time communication, and AI analysis of health conditions and patient 
+                Built and guided a dynamic design team to spearhead the groundbreaking Connected Health
+                initiative, focused on comprehensive patient care and at-home monitoring in post-surgical,
+                chronic condition, and other high-risk populations. Operated end-to-end efforts in user
+                research, software design and development, service design, packaging design, and physical
+                device design. The ecosystem included tools addressing providers, patients, and payers
+                through mobile and desktop apps, in-home diagnostic devices, professional care
+                management, real-time communication, and AI analysis of health conditions and patient
                 interactions.
               </p>
               <div className="space-y-3">
                 {[
                   "Catalyzed efforts that prompted a $600MM acquisition by United Health's Optum division, highlighting the strategic impact of the Connected Health initiative.",
-                  "Supervised a cross-functional effort to create mobile and responsive Web applications for physicians, care providers, and patients."
+                  "Designed an ecosystem of software, physical devices, and services that resulted in a nearly 90% reduction in emergency visits and hospital readmission and a commensurate 30% decrease in overall healthcare costs.",
+                  "Supervised a cross-functional effort to create mobile and responsive Web applications for physicians, care providers, and patients"
                 ].map((achievement, index) => (
                   <div key={index} className="text-muted-foreground font-light">
                     • {achievement}
@@ -363,13 +369,44 @@ export default function Resume() {
               </div>
             </div>
 
-            {/* Additional Experience */}
+            {/* Kenexa */}
+            <div className="mb-12 pb-8 border-b border-border">
+              <div className="mb-4">
+                <h4 className="font-serif text-xl font-normal text-foreground mb-1">Kenexa (an IBM Company)</h4>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+                  <p className="text-accent font-medium">PRINCIPAL USER EXPERIENCE DESIGNER AND MANAGER</p>
+                  <p className="text-muted-foreground font-light">2009-2013</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed font-light mb-4">
+                I led a team driving the creation and evolution of Smarter Workforce solutions from the earliest
+                stages of conception and research through delivery, testing, and ongoing enhancement. I
+                operated at the executive level setting product vision and market strategy, through product
+                management, and to the producer level, working hands-on with design and development. The
+                IBM Smarter Workforce platform consists of software, data, and services for strategic human
+                capital management. With over 8,900 customers in 21 countries, the platform enabled
+                companies like Walmart, Target, and Disney to hire, train, compensate, and evolve their entire
+                workforce.
+              </p>
+              <div className="space-y-3">
+                {[
+                  "Conceived and executed the vision for RapidHire, the first in a series of cross-product experiences designed for a specific user community (in this case, hourly hiring managers). The solution increased Kenexa's addressable ATS market by 65% ($1.4B - $1.7B), and headlined the company's 2012 new product releases.",
+                  "Reduced usability-related support requests by 40%",
+                  "Oversaw a large UX-driven effort based on the RapidHire Interface Inversion strategy - creating targeted experiences for distinct user communities that elegantly incorporated functionality across separate products into a tailored and seamless workflow. The strategy was credited even in its earliest stages with a 40% lower customer churn and an estimated 60% higher lifetime value."
+                ].map((achievement, index) => (
+                  <div key={index} className="text-muted-foreground font-light">
+                    • {achievement}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Consulting Experience */}
             <div className="mb-12">
-              <h4 className="font-serif text-xl font-normal text-foreground mb-4">Additional Experience</h4>
+              <h4 className="font-serif text-xl font-normal text-foreground mb-4">Consulting Experience</h4>
               <div className="space-y-2">
-                <div className="text-muted-foreground font-light">• Principal User Experience Designer & Manager, Kenexa (an IBM Company)</div>
-                <div className="text-muted-foreground font-light">• Senior User Experience Designer & Project Manager - Axis Technology</div>
-                <div className="text-muted-foreground font-light">• User Experience Designer & Information Architect - netNumina Solutions</div>
+                <div className="text-muted-foreground font-light">• Senior User Experience Designer & Project Manager - Axis Technology - (2004-2009)</div>
+                <div className="text-muted-foreground font-light">• User Experience Designer & Information Architect - netNumina Solutions - (2000-2004)</div>
               </div>
             </div>
           </div>
