@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { ArrowLeft, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
-import resumePdf from "@assets/Wilcomb Resume 2025_1757209813353.pdf";
+import resumePdf from "@assets/Wilcomb Resume 2025_1759595572077.pdf";
 
 export default function Resume() {
   const [, setLocation] = useLocation();

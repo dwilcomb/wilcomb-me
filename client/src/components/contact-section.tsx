@@ -1,5 +1,5 @@
 import { Mail, Linkedin, Download } from "lucide-react";
-import resumePdf from "@assets/Wilcomb Resume 2025_1757209813353.pdf";
+import resumePdf from "@assets/Wilcomb Resume 2025_1759595572077.pdf";
 import profilePhotoImg from "@assets/images/profile-photo.jpg";
 
 export default function ContactSection() {
