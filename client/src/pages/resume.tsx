@@ -185,9 +185,10 @@ export default function Resume() {
               <div className="grid grid-cols-1 gap-3">
                 {[
                   "UX Design & Prototyping (Figma, XD, Sketch, Axure, InVision)",
-                  "Design Systems (Zeroheight, Figma, Storybook)",
+                  "Collaborative Whiteboards (FigJam, Miro)",
                   "Product Management (Jira, Confluence, Trello, MS Project)",
-                  "Usability Testing & Analytics (UserTesting, Hubble, Loop11)"
+                  "Usability Testing & Analytics (UserTesting, Hubble, Loop11)",
+                  "Adobe Creative Cloud (XD, Illustrator, Photoshop, InDesign)"
                 ].map((tool, index) => (
                   <div key={index} className="text-muted-foreground font-light">
                     • {tool}
@@ -196,11 +197,10 @@ export default function Resume() {
               </div>
               <div className="grid grid-cols-1 gap-3">
                 {[
-                  "Adobe Creative Cloud (XD, Illustrator, Photoshop, InDesign)",
                   "Presentation Software (Keynote, PowerPoint, Prezi)",
                   "Source Control (GitHub, BitBucket)",
-                  "Collaborative Whiteboards (FigJam, Miro)",
-                  "Microsoft Office (Word, Excel, PowerPoint, Outlook, Teams, Sharepoint)"
+                  "Microsoft Office (Word, Excel, PowerPoint, Outlook, Teams, Sharepoint)",
+                  "AI-accelerated design workflows (Replit, Claude, OpenAI, Perplexity, Loveable, etc.)"
                 ].map((tool, index) => (
                   <div key={index} className="text-muted-foreground font-light">
                     • {tool}
