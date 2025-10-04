@@ -84,7 +84,13 @@ export default function Resume() {
           {/* Contact Information */}
           <div className="text-center mb-16 pb-8 border-b border-border">
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-muted-foreground">
-              <span>daniel@wilcomb.me</span>
+              <a 
+                href="mailto:daniel@wilcomb.me"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                data-testid="link-email"
+              >
+                daniel@wilcomb.me
+              </a>
               <span className="hidden md:block">•</span>
               <span>617-974-6960</span>
               <span className="hidden md:block">•</span>
