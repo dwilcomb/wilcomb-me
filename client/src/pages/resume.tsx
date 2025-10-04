@@ -88,7 +88,15 @@ export default function Resume() {
               <span className="hidden md:block">•</span>
               <span>617-974-6960</span>
               <span className="hidden md:block">•</span>
-              <span>LinkedIn | Portfolio</span>
+              <a 
+                href="https://www.linkedin.com/in/dwilcomb" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-accent transition-colors"
+                data-testid="link-linkedin"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
 
